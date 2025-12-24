@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetMemo</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="add">添加</string>
+    <string name="back">返回</string>
+    <string name="confirm">确认</string>
+    <string name="loading">加载中…</string>
+    <string name="error">错误</string>
+    <string name="please_fill_all_fields">请填写所有必填字段。</string>
+    <string name="date">日期</string>
+    <string name="title_article">文章</string>
+    <string name="title_main_menu">实用信息</string>
+    <string name="button_back">返回</string>
+    <string name="error_content_not_found">未找到内容。</string>
+    <string name="email">电子邮箱</string>
+    <string name="password">密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="login_button">登录</string>
+    <string name="register_button">注册</string>
+    <string name="switch_to_register">没有账号？注册</string>
+    <string name="switch_to_login">已有账号？登录</string>
+    <string name="auth_error_passwords_do_not_match">密码不匹配。</string>
+    <string name="auth_error_password_too_short">密码长度必须至少为6个字符。</string>
+    <string name="auth_error_weak_password">密码太弱。</string>
+    <string name="auth_error_invalid_email">邮箱格式无效。</string>
+    <string name="auth_error_user_collision">该邮箱已被注册。</string>
+    <string name="auth_error_invalid_credentials">邮箱或密码错误。</string>
+    <string name="auth_error_generic">认证错误：%s</string>
+
+    <string name="drawer_home">首页</string>
+    <string name="drawer_reports">报告</string>
+    <string name="drawer_useful_info">实用信息</string>
+    <string name="drawer_about">关于应用</string>
+    <string name="drawer_get_premium">获取高级版</string>
+
+    <string name="bottom_nav_home">首页</string>
+    <string name="bottom_nav_calendar">日历</string>
+    <string name="bottom_nav_tasks">任务</string>
+    <string name="bottom_nav_map">地图</string>
+
+    <string name="add_pet_title">添加新宠物</string>
+    <string name="edit_pet_title">编辑宠物</string>
+    <string name="pet_name">名字</string>
+    <string name="pet_type">类型（例如：猫，狗）</string>
+    <string name="pet_breed">品种</string>
+    <string name="pet_gender">性别</string>
+    <string name="pet_gender_male">公</string>
+    <string name="pet_gender_female">母</string>
+    <string name="pet_birth_date">出生日期</string>
+    <string name="pet_photo">宠物照片</string>
+    <string name="pet_add_success">宠物添加成功！</string>
+    <string name="pet_update_success">宠物数据更新成功！</string>
+    <string name="dialog_delete_pet_title">删除宠物？</string>
+    <string name="dialog_delete_pet_text">您确定要删除此宠物及其所有相关数据吗？此操作不可逆。</string>
+
+    <string name="tab_health_diary">健康日记</string>
+    <string name="tab_events">事件</string>
+    <string name="tab_expenses">开销</string>
+    <string name="no_health_records">暂无健康记录。\n点击“+”添加第一条记录。</string>
+    <string name="medical_record">医疗记录</string>
+    <string name="no_medical_records">暂无医疗记录。</string>
+    <string name="weight_chart_title">体重图表</string>
+    <string name="mood_chart_title">情绪图表</string>
+    <string name="chart_not_enough_data">至少需要2条记录才能生成图表。</string>
+    <string name="dialog_delete_record_title">删除记录？</string>
+    <string name="dialog_delete_record_text">您确定要删除此记录吗？</string>
+
+    <string name="add_record_title_new">新医疗记录</string>
+    <string name="add_record_title_edit">编辑记录</string>
+    <string name="record_symptoms">症状</string>
+    <string name="record_diagnosis">诊断（可选）</string>
+    <string name="record_treatment">治疗（可选）</string>
+    <string name="record_clinic">诊所（可选）</string>
+    <string name="record_vet">兽医（可选）</string>
+    <string name="record_notes">备注（可选）</string>
+
+    <string name="map_screen_title">兽医地图</string>
+    <string name="map_add_note_dialog_title">添加备注</string>
+    <string name="map_note_title">标题（例如：“好的宠物诊所”）</string>
+    <string name="map_note_description">描述（可选）</string>
+    <string name="map_location_permission_denied">位置权限被拒绝。请在设置中授予权限以在地图上查看您的位置。</string>
+    <string name="map_location_loading">正在定位…</string>
+    <string name="map_note_details_title">备注：</string>
+    <string name="map_delete_note_button">删除备注</string>
+
+    <string name="documents_screen_title">文档</string>
+    <string name="document_name">文档名称</string>
+    <string name="no_documents">暂未添加文档。</string>
+    <string name="dialog_delete_document_title">删除文档？</string>
+    <string name="dialog_delete_document_text">您确定要删除此文档吗？</string>
+
+    <string name="title_article_detail">文章</string>
+    <string name="content_articles">文章</string>
+    <string name="error_content_not_found_articles">未找到文章内容。</string>
+
+    <string name="animal_type_cats">猫</string>
+    <string name="animal_type_dogs">狗</string>
+    <string name="animal_type_fish">鱼</string>
+    <string name="animal_type_birds">鸟</string>
+    <string name="animal_type_small_mammals">小型哺乳动物</string>
+    <string name="animal_type_reptiles_amphibians">爬行动物和两栖动物</string>
+
+    <string name="about_title">关于应用</string>
+    <string name="about_icon_description">应用图标</string>
+    <string name="about_version">版本 1.0.0</string>
+    <string name="about_description">您的个人宠物\n护理助手</string>
+    <string name="about_privacy_policy">隐私政策</string>
+    <string name="todo_open_link">TODO: 打开链接</string>
+
+    <string name="expense_select_category">选择类别</string>
+    <string name="expense_total">总开销</string>
+    <string name="expense_amount">金额</string>
+    <string name="expense_category">类别</string>
+    <string name="expense_new_category_title">新类别</string>
+    <string name="expense_category_name_label">名称</string>
+    <string name="expense_default_food">食物</string>
+    <string name="expense_default_toys">玩具</string>
+    <string name="expense_default_health">健康</string>
+    <string name="expense_default_care">护理</string>
+    <string name="expense_default_other">其他</string>
+    <string name="expense_add_new_category">+ 新类别</string>
+    <string name="expense_hint_enter_category">输入类别</string>
+    <string name="expense_enter_amount_title">输入金额</string>
+    <string name="expense_amount_label">金额</string>
+    <string name="expense_add_title">添加开销</string>
+    <string name="expense_edit_title">编辑开销</string>
+    <string name="expense_label_expense">开销</string>
+    <string name="expense_label_date">日期</string>
+    <string name="expense_date_not_selected">未选择</string>
+    <string name="expense_description_optional">描述（可选）</string>
+    <string name="validation_enter_valid_amount">请输入有效金额</string>
+    <string name="validation_select_category">请选择或输入类别</string>
+
+    <string name="task_add_title">新任务</string>
+    <string name="task_edit_title">编辑任务</string>
+    <string name="task_share">分享</string>
+    <string name="task_pet_selection_title">为哪个宠物？</string>
+    <string name="task_category_selection_title">选择类别</string>
+    <string name="task_category_cancel">取消</string>
+    <string name="task_label_pet">宠物</string>
+    <string name="task_pet_select_pet">选择宠物</string>
+    <string name="task_label_category">类别</string>
+    <string name="task_label_description">任务描述</string>
+    <string name="task_label_date">日期</string>
+    <string name="task_label_remind_me">提醒我</string>
+    <string name="task_label_time">时间</string>
+    <string name="task_default_time">09:00</string>
+
+    <string name="share_task_pet">任务对象：%s</string>
+    <string name="share_task_title">任务：%s</string>
+    <string name="share_task_date">日期：%s</string>
+    <string name="share_task_chooser">分享任务</string>
+    <string name="notification_pet_name_default">您的宠物</string>
+    <string name="notification_task_no_description">（无描述）</string>
+
+    <string name="validation_select_task_date">请指定任务日期</string>
+    <string name="validation_select_date_first">请先选择任务日期</string>
+
+    <string name="record_add_title">新记录</string>
+    <string name="record_edit_title">编辑</string>
+    <string name="record_label_date">日期</string>
+    <string name="record_label_symptoms_required">症状 / 原因（必填）</string>
+    <string name="record_label_place_clinic">地点（诊所，家里）</string>
+    <string name="record_label_specialist">专家（医生姓名）</string>
+    <string name="record_label_diagnosis_treatment">诊断 / 处方</string>
+    <string name="record_label_comment">评论</string>
+    <string name="record_save_button">保存记录</string>
+    <string name="validation_enter_symptoms">请说明症状或原因</string>
+
+    <string name="pet_edit_title">编辑</string>
+    <string name="pet_save_button">保存</string>
+    <string name="pet_photo_description">宠物照片</string>
+    <string name="pet_add_photo">添加照片</string>
+    <string name="pet_label_name">宠物名字</string>
+    <string name="pet_label_type">动物类型</string>
+    <string name="pet_label_gender">性别</string>
+    <string name="pet_label_breed">品种</string>
+    <string name="pet_label_color">毛色</string>
+    <string name="pet_label_birth_date">出生日期</string>
+    <string name="pet_label_family_date">入家日期</string>
+    <string name="pet_label_castrated">已绝育</string>
+    <string name="pet_label_microchip">芯片</string>
+    <string name="pet_label_show_training">显示训练日记</string>
+    <string name="pet_label_note">备注</string>
+    <string name="pet_color_not_specified">未指定</string>
+
+    <string name="dialog_select_type_title">选择动物类型</string>
+    <string name="dialog_select_gender_title">选择性别</string>
+    <string name="dialog_select_color_title">选择或输入毛色</string>
+    <string name="dialog_new_color_label">新毛色</string>
+    <string name="dialog_image_source_title">选择照片来源</string>
+    <string name="dialog_source_camera">拍照</string>
+    <string name="dialog_source_gallery">从图库选择</string>
+    <string name="dialog_status_title">指定状态</string>
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+
+    <string name="color_black">黑色</string>
+    <string name="color_white">白色</string>
+    <string name="color_gray">灰色</string>
+    <string name="color_ginger">橘色/姜黄色</string>
+    <string name="color_spotted">斑点</string>
+    <string name="color_tricolor">三花</string>
+
+    <string name="validation_pet_name_empty">宠物名字不能为空</string>
+    <string name="permission_gallery_denied">图库访问权限被拒绝</string>
+    <string name="permission_camera_denied">相机使用权限被拒绝</string>
+
+    <string name="training_add_title">新训练</string>
+    <string name="training_edit_title">编辑</string>
+    <string name="training_dialog_select_status">选择状态</string>
+    <string name="training_label_command">指令（例如：“坐下”）</string>
+    <string name="training_label_status">状态</string>
+    <string name="training_label_start_date">开始日期</string>
+    <string name="training_label_notes">评论</string>
+    <string name="validation_enter_command_name">请输入指令名称</string>
+
+    <string name="tasks_all_title">所有任务</string>
+    <string name="tasks_empty_list">您暂时没有计划的任务。</string>
+    <string name="tasks_general_task">常规任务</string>
+    <string name="tasks_dialog_confirmation">确认</string>
+    <string name="tasks_dialog_delete_text">确定要删除任务“%s”吗？</string>
+    <string name="tasks_dialog_delete">删除</string>
+    <string name="tasks_dialog_cancel">取消</string>
+    <string name="tasks_pet_label">宠物：%s</string>
+    <string name="tasks_no_description">（无描述）</string>
+
+    <string name="auth_register_title">注册</string>
+    <string name="auth_login_title">登录</string>
+    <string name="auth_email_label">电子邮箱</string>
+    <string name="auth_password_label">密码</string>
+    <string name="auth_hide_password">隐藏密码</string>
+    <string name="auth_show_password">显示密码</string>
+    <string name="auth_register_button">注册</string>
+    <string name="auth_login_button">登录</string>
+    <string name="auth_switch_to_login">已有账号？登录</string>
+    <string name="auth_switch_to_register">没有账号？注册</string>
+    <string name="auth_sign_in_google">通过 Google 登录</string>
+    <string name="auth_snackbar_action_ok">好的</string>
+
+    <string name="error_google_sign_in_failed">Google 登录失败：代码 %1$d，消息：%2$s，原因：%3$s</string>
+    <string name="error_google_sign_in_unknown">未知 Google 登录错误：%1$s</string>
+    <string name="error_google_sign_in_cancelled">Google 登录已取消或失败。结果代码：%1$d</string>
+
+    <string name="calculator_title_main">计算器</string>
+    <string name="calculator_title_food_adult">喂食量：成年</string>
+    <string name="calculator_title_food_puppy">喂食量：幼宠</string>
+    <string name="calculator_title_food_active">喂食量：活跃</string>
+    <string name="calculator_title_age_cat">年龄：猫</string>
+    <string name="calculator_title_age_dog_small">年龄：小型犬</string>
+    <string name="calculator_title_age_dog_large">年龄：大型犬</string>
+    <string name="calculator_title_water">饮水量</string>
+    <string name="calculator_title_supply">饲料储备</string>
+    <string name="calculator_title_gestation">妊娠日历</string>
+
+    <string name="menu_food_adult_title">喂食量：成年，已绝育</string>
+    <string name="menu_food_adult_desc">适用于成年猫/狗</string>
+    <string name="menu_food_puppy_title">喂食量：幼犬/幼猫</string>
+    <string name="menu_food_puppy_desc">适用于成长中的宠物</string>
+    <string name="menu_food_active_title">喂食量：活跃/未绝育</string>
+    <string name="menu_food_active_desc">适用于活动量大的宠物</string>
+
+    <string name="menu_age_cat_title">年龄：猫</string>
+    <string name="menu_age_cat_desc">猫的“人类”年龄（估算）</string>
+    <string name="menu_age_dog_small_title">年龄：小型犬</string>
+    <string name="menu_age_dog_small_desc">小型犬的“人类”年龄（估算）</string>
+    <string name="menu_age_dog_large_title">年龄：大型犬</string>
+    <string name="menu_age_dog_large_desc">大型犬的“人类”年龄（估算）</string>
+
+    <string name="menu_water_title">每日饮水量</string>
+    <string name="menu_water_desc">了解宠物应该喝多少水</string>
+    <string name="menu_supply_title">饲料能吃多久？</string>
+    <string name="menu_supply_desc">计算何时需要购买新包装</string>
+    <string name="menu_gestation_title">妊娠日历</string>
+    <string name="menu_gestation_desc">计算预产期（猫/狗）</string>
+
+    <string name="calc_label_weight">宠物体重 (kg)</string>
+    <string name="calc_label_calories">饲料热量 (kcal/100g)</string>
+    <string name="calc_label_pack_weight">包装重量 (kg)</string>
+    <string name="calc_label_daily_portion">每日食量 (g)</string>
+    <string name="calc_button_calculate">计算</string>
+    <string name="calc_result_daily_portion">每日食量：%d 克</string>
+    <string name="calc_result_error">请输入有效数据</string>
+
+    <string name="calc_desc_adult_food">适用于已绝育的成年猫和狗。这是估算值，请咨询兽医。</string>
+    <string name="calc_desc_puppy_food">适用于幼犬和幼猫。计算结果很大程度上取决于年龄、品种和生长速度。请务必咨询兽医。</string>
+    <string name="calc_desc_active_food">适用于活跃、未绝育或工作动物。计算结果仅供参考。</string>
+    <string name="calc_desc_age_cat">猫的“人类”年龄计算。这是一个非常粗略的估算。</string>
+    <string name="calc_desc_age_dog_small">小型犬（10kg以下）的“人类”年龄计算。这是一个非常粗略的估算。</string>
+    <string name="calc_desc_age_dog_large">大型犬（25kg以上）的“人类”年龄计算。这是一个非常粗略的估算。</string>
+    <string name="calc_desc_water">大多数健康猫狗的每日饮水量估算。不可替代兽医咨询。</string>
+    <string name="calc_desc_gestation">猫和狗的平均妊娠期为63天。日期可能会有细微变化。</string>
+
+    <string name="calc_result_human_age">您的宠物年龄\n大约相当于\n%d\n岁的人类</string>
+    <string name="calc_result_water_intake">每日摄入量：~%d 毫升</string>
+    <string name="calc_result_food_supply">这包饲料大约足够 %d 天</string>
+    <string name="calc_result_gestation_date">预产期：\n%s</string>
+    <string name="calc_dialog_select_pet">选择宠物</string>
+    <string name="calc_label_pet_name">宠物</string>
+    <string name="calc_label_mating_date">交配日期</string>
+
+    <string name="contacts_title">联系人</string>
+    <string name="contacts_call">拨打</string>
+    <string name="contacts_whatsapp">发送 WhatsApp</string>
+    <string name="contacts_delete">删除</string>
+    <string name="contacts_empty_list">暂无联系人。\n点击“+”添加。</string>
+    <string name="contacts_header_unknown">未知联系人</string>
+
+    <string name="dialog_contact_new_title">新联系人</string>
+    <string name="dialog_contact_import_button">从手机导入</string>
+    <string name="dialog_contact_label_name_required">姓名（必填）</string>
+    <string name="dialog_contact_label_phone_required">电话（必填）</string>
+    <string name="dialog_contact_label_type_hint">类型（兽医，美容师…）</string>
+    <string name="dialog_contact_label_notes_hint">备注（地址，时间）</string>
+    <string name="dialog_contact_save">保存</string>
+
+    <string name="dialog_delete_contact_title">删除联系人？</string>
+    <string name="dialog_delete_contact_text">确定要删除联系人“%s”吗？此操作无法撤销。</string>
+
+    <string name="toast_whatsapp_not_installed">未安装 WhatsApp 或号码无效</string>
+    <string name="toast_contact_required_fields">姓名、电话和类型为必填项</string>
+    <string name="toast_permission_contacts_denied">读取联系人权限被拒绝</string>
+    <string name="toast_contact_name_default">未知联系人</string>
+
+    <string name="contacts_add">添加联系人</string>
+
+    <string name="documents_title">我的文档</string>
+    <string name="documents_add_fab">上传文档</string>
+    <string name="documents_common_name">通用文档</string>
+    <string name="documents_common_header">通用文档</string>
+    <string name="documents_date_added">%1$s • %2$s</string>
+    <string name="documents_empty_list">暂无文档。\n点击“+”上传第一份文档。</string>
+    <string name="documents_delete_content_desc">删除</string>
+
+    <string name="dialog_document_new_title">新文档</string>
+    <string name="dialog_document_label_name">文档名称</string>
+    <string name="dialog_document_label_pet_bind">绑定到</string>
+    <string name="dialog_document_button_select_file">选择文件</string>
+    <string name="dialog_document_button_file_selected">已选择文件</string>
+    <string name="dialog_document_save">保存</string>
+
+    <string name="dialog_document_confirmation">确认</string>
+    <string name="dialog_document_delete_text">确定要删除文档“%s”吗？</string>
+    <string name="dialog_document_delete_button">删除</string>
+
+    <string name="toast_document_required_fields">请填写名称并选择文件</string>
+    <string name="toast_document_save_failed">保存文件失败</string>
+    <string name="toast_file_deleted">文件已删除</string>
+    <string name="toast_file_delete_failed">删除文件失败</string>
+    <string name="toast_file_open_failed">无法打开文件：%s</string>
+    <string name="toast_file_not_found">路径下未找到文件：%s</string>
+
+    <string name="checklist_new_title_default">新清单</string>
+    <string name="checklist_edit_title">编辑</string>
+    <string name="checklist_delete_icon_desc">删除清单</string>
+    <string name="checklist_save_icon_desc">保存</string>
+    <string name="checklist_label_name">清单名称</string>
+    <string name="checklist_label_item_prefix">项目</string>
+    <string name="checklist_item_delete_desc">删除项目</string>
+    <string name="checklist_button_add_item">添加项目</string>
+
+    <string name="dialog_checklist_delete_title">删除清单？</string>
+    <string name="dialog_checklist_delete_text">确定要删除“%s”吗？此操作不可逆。</string>
+    <string name="dialog_checklist_delete_button">删除</string>
+
+    <string name="toast_checklist_name_empty">名称不能为空</string>
+
+    <string name="pet_list_title">我的宠物</string>
+    <string name="pet_list_menu_icon_desc">菜单</string>
+    <string name="pet_list_notifications_icon_desc">提醒</string>
+    <string name="pet_list_empty_message">您还没有添加宠物。\n点击下方的“+”添加第一个宠物！</string>
+    <string name="reminder_dialog_title">即将到来的提醒</string>
+    <string name="reminder_dialog_empty">没有即将到来的提醒。</string>
+    <string name="reminder_dialog_general_task">常规</string>
+    <string name="reminder_dialog_button_ok">好的</string>
+    <string name="dialog_confirmation_title">确认</string>
+    <string name="dialog_delete_pet_button">删除</string>
+
+    <string name="pet_card_photo_desc">宠物照片</string>
+    <string name="reminder_item_pet_category_format">%1$s • %2$s</string>
+
+    <string name="html_title_terms">用户协议</string>
+    <string name="html_title_privacy">隐私政策</string>
+    <string name="html_title_description">应用描述</string>
+
+    <string name="nav_pets">宠物</string>
+    <string name="nav_tasks">任务</string>
+    <string name="nav_add">添加</string>
+    <string name="nav_finance">财务</string>
+    <string name="nav_map">地图</string>
+    <string name="nav_reminders">提醒</string>
+    <string name="nav_pet_limit_message">您还没有添加宠物。\n点击下方的“+”添加第一个宠物！</string>
+
+    <string name="drawer_status_premium">状态：高级版</string>
+    <string name="drawer_status_free">状态：免费版</string>
+    <string name="drawer_manage_subscription">管理订阅</string>
+    <string name="drawer_calculators">计算器</string>
+    <string name="drawer_useful">实用功能</string>
+    <string name="drawer_checklists">清单</string>
+    <string name="drawer_documents">我的文档</string>
+    <string name="drawer_contacts">联系人</string>
+    <string name="drawer_settings">设置</string>
+    <string name="drawer_section_documents">文档</string>
+    <string name="drawer_terms_of_use">用户协议</string>
+    <string name="drawer_privacy_policy">隐私政策</string>
+    <string name="drawer_about_app">关于应用</string>
+    <string name="drawer_logout">退出</string>
+    <string name="drawer_logout_desc">退出登录</string>
+    <string name="drawer_app_logo_desc">应用 Logo</string>
+
+    <string name="welcome_message">欢迎使用 PetMemo！</string>
+
+    <string name="map_title">地图</string>
+    <string name="map_permission_granted">已获取位置权限。</string>
+    <string name="map_permission_denied">位置权限被拒绝。</string>
+    <string name="map_permission_needed_snackbar">需要权限才能显示您的位置。</string>
+    <string name="map_permission_already_granted">已拥有 FINE_LOCATION 权限。</string>
+    <string name="map_permission_requesting">缺少 FINE_LOCATION 权限，正在请求。</string>
+    <string name="map_location_updates_started">已开始请求位置更新。</string>
+    <string name="map_location_updates_stopped">已停止位置更新。</string>
+    <string name="map_location_update_security_error">请求位置时发生安全错误：%s</string>
+    <string name="map_location_getting">正在获取您的位置…</string>
+
+    <string name="marker_title_you_are_here">您在这里</string>
+    <string name="marker_snippet_current_location">您的当前位置</string>
+
+    <string name="note_details_title_default">备注标题</string>
+    <string name="note_button_delete">删除</string>
+    <string name="note_button_close">关闭</string>
+    <string name="note_deleted_snackbar">备注“%s”已删除。</string>
+
+    <string name="dialog_note_add_title">添加备注</string>
+    <string name="dialog_note_label_title">标题</string>
+    <string name="dialog_note_label_description">描述（可选）</string>
+    <string name="dialog_note_add_button">添加</string>
+    <string name="dialog_note_added_snackbar">备注已添加！</string>
+    <string name="dialog_note_title_empty_snackbar">标题不能为空。</string>
+
+    <string name="record_detail_loading">加载中…</string>
+    <string name="record_detail_symptoms">症状：%s</string>
+    <string name="record_detail_date">日期：%s</string>
+    <string name="record_detail_place">地点：%s</string>
+    <string name="record_detail_specialist">专家：%s</string>
+    <string name="record_detail_diagnosis">诊断/处方：%s</string>
+    <string name="record_detail_treatment">治疗：%s</string>
+    <string name="record_detail_note">备注：%s</string>
+    <string name="record_detail_section_notes">观察 / 评论</string>
+    <string name="record_detail_add_note_label">添加新观察…</string>
+    <string name="record_detail_add_note_button">添加观察</string>
+
+    <string name="note_edit_desc">编辑</string>
+    <string name="note_delete_desc">删除</string>
+    <string name="dialog_note_edit_title">编辑观察</string>
+    <string name="dialog_note_delete_title">删除评论？</string>
+    <string name="dialog_note_delete_text">您确定要删除此评论吗？</string>
+
+    <string name="settings_title">设置</string>
+    <string name="settings_label_theme">主题</string>
+    <string name="settings_label_currency">货币</string>
+
+    <string name="dialog_select_currency">选择货币</string>
+    <string name="dialog_select_theme">选择主题</string>
+
+    <string name="theme_default">默认</string>
+    <string name="theme_dark">深色</string>
+
+    <string name="info_section_main">基本信息</string>
+    <string name="info_label_type">类型</string>
+    <string name="info_label_gender">性别</string>
+    <string name="info_label_breed">品种</string>
+    <string name="info_label_color">毛色</string>
+    <string name="info_label_not_specified">未指定</string>
+    <string name="info_label_not_specified_f">未指定</string>
+    <string name="info_section_dates">日期</string>
+    <string name="info_label_birth_date">出生日期</string>
+    <string name="info_label_family_date">入家日期</string>
+    <string name="info_section_medical">医疗卡</string>
+    <string name="info_label_castrated">绝育/去势</string>
+    <string name="info_label_microchip">芯片</string>
+    <string name="info_label_yes">是</string>
+    <string name="info_label_no">否</string>
+    <string name="info_section_note">备注</string>
+    <string name="info_label_not_available">N/A</string>
+
+    <string name="training_diary_empty">暂无训练记录。\n点击“+”添加第一条。</string>
+    <string name="training_create_task_desc">创建任务</string>
+    <string name="training_task_title_format">训练：%s</string>
+
+    <string name="health_tracker_mood">情绪追踪</string>
+    <string name="health_tracker_mood_today">宠物今天心情如何？</string>
+    <string name="health_tracker_weight">体重变化</string>
+    <string name="health_tracker_weight_label">体重，kg</string>
+    <string name="health_tracker_weight_button">添加</string>
+    <string name="health_record_section">医疗卡</string>
+    <string name="health_record_empty">医疗卡暂无记录。</string>
+    <string name="health_chart_min_entries">至少需要2条记录才能生成图表</string>
+    <string name="health_dialog_edit_weight_title">编辑体重</string>
+    <string name="health_dialog_edit_mood_title">更改情绪</string>
+    <string name="health_dialog_edit_mood_question">宠物在 %s 的情绪如何？</string>
+    <string name="health_dialog_delete_title">删除记录？</string>
+    <string name="health_dialog_delete_confirm_text">您确定吗？</string>
+    <string name="health_dialog_delete_button">删除</string>
+    <string name="health_add_record_fab">添加记录</string>
+    <string name="health_add_training_fab">添加训练</string>
+    <string name="health_mood_collapse_desc">折叠/展开</string>
+    <string name="health_record_task_title_format">医疗任务：%s</string>
+
+    <string name="record_card_diagnosis_format">诊断：%s</string>
+    <string name="record_card_share_desc">分享</string>
+    <string name="share_medical_record_title">宠物医疗记录：</string>
+    <string name="share_medical_record_date">日期：%s</string>
+    <string name="share_medical_record_symptoms">症状：%s</string>
+    <string name="share_medical_record_diagnosis">诊断：%s</string>
+    <string name="share_medical_record_treatment">治疗：%s</string>
+    <string name="share_medical_record_vet">兽医：%s</string>
+    <string name="share_medical_record_clinic">诊所：%s</string>
+    <string name="share_medical_record_notes">备注：%s</string>
+    <string name="share_chooser_record">分享医疗记录</string>
+
+    <string name="tab_info">信息</string>
+    <string name="tab_health">健康</string>
+    <string name="tab_training">训练</string>
+    <string name="pet_detail_loading">加载中…</string>
+    <string name="pet_detail_edit_icon_desc">编辑</string>
+    <string name="pet_detail_add_record_desc">添加记录</string>
+    <string name="pet_detail_add_training_desc">添加训练</string>
+
+    <string name="item_edit_desc">编辑</string>
+    <string name="item_delete_desc">删除</string>
+    <string name="item_weight_desc">体重</string>
+
+    <string name="dialog_delete_training_text">您确定要删除这条训练记录吗？</string>
+    <string name="dialog_delete_button">删除</string>
+    <string name="task_empty_list">暂无任务。\n点击“+”添加。</string>
+
+    <string name="checklists_title">清单</string>
+    <string name="checklists_my_lists">我的清单</string>
+    <string name="checklists_copy_desc">复制到“我的清单”</string>
+    <string name="checklists_template_copied_toast">“%s”已复制！</string>
+    <string name="checklists_expand_desc">折叠/展开</string>
+    <string name="checklists_add_new">创建新清单</string>
+    <string name="checklists_loading">加载中…</string>
+    <string name="checklists_edit">编辑</string>
+    <string name="checklists_empty_message">暂无清单。\n点击“+”添加。</string>
+
+    <string name="delete_button">删除</string>
+    <string name="save_button">保存</string>
+    <string name="edit_button">编辑</string>
+
+    <string name="data_not_available">无数据</string>
+
+    <string name="expense_reports_title">财务报告</string>
+    <string name="expense_structure">支出结构</string>
+    <string name="expense_icon_desc">支出图标</string>
+    <string name="expense_general">常规</string>
+    <string name="expense_all">所有支出</string>
+    <string name="expense_unknown_pet">未知宠物</string>
+    <string name="expense_delete_confirm">删除确认</string>
+    <string name="expense_delete_text">您确定要删除此项支出吗？</string>
+    <string name="date_range_start">开始</string>
+    <string name="date_range_end">结束</string>
+
+    <string name="date_filter_today">今天</string>
+    <string name="date_filter_this_month">本月</string>
+    <string name="date_filter_last_month">上月</string>
+    <string name="date_filter_this_year">今年</string>
+    <string name="date_filter_all_time">所有时间</string>
+    <string name="date_filter_custom">自定义</string>
+    <string name="expense_filter_all_cats">所有类别</string>
+    <string name="expense_filter_date_range">选择日期范围</string>
+
+    <string name="cancel_button">取消</string>
+
+    <string name="benefit_unlimited_pets">无限添加宠物</string>
+    <string name="benefit_map_access">访问交互式地图</string>
+    <string name="benefit_no_ads">完全无广告</string>
+    <string name="benefit_priority_support">优先支持</string>
+
+    <string name="option_monthly_title">月度订阅</string>
+    <string name="option_monthly_price">$3 / 月</string>
+    <string name="option_monthly_desc">适合尝试</string>
+    <string name="option_annual_title">年度订阅</string>
+    <string name="option_annual_price">$30 / 年</string>
+    <string name="option_annual_desc">每年节省 $6！</string>
+    <string name="error_loading_products">加载商品失败。请稍后重试。</string>
+
+    <string name="subscription_title">PetMemo Premium 订阅</string>
+    <string name="subscription_activated">订阅已激活！</string>
+    <string name="subscription_already_premium">您已经拥有 PetMemo Premium！</string>
+    <string name="subscription_get_premium">通过 Premium 获取 PetMemo 的最大权益！</string>
+    <string name="subscription_benefits_header">享受所有功能：</string>
+    <string name="subscription_restore_purchases">恢复购买</string>
+    <string name="subscription_reset_fake">重置订阅 (Fake)</string>
+    <string name="subscription_terms">如果未在当前周期结束前至少 24 小时取消，您的订阅将自动续订。请在您的 Google/RuStore 账户设置中管理订阅。</string>
+    <string name="pet_diary_title">爱宠日记</string>
+
+    <string name="mood_happy">开心</string>
+    <string name="mood_playful">顽皮</string>
+    <string name="mood_calm">平静</string>
+    <string name="mood_anxious">焦虑</string>
+    <string name="mood_sad">悲伤</string>
+    <string name="health_label_weight_kg">体重，kg</string>
+
+    <string name="pet_type_dog">狗</string>
+    <string name="pet_type_cat">猫</string>
+    <string name="pet_type_bird">鸟</string>
+    <string name="pet_type_fish">鱼</string>
+    <string name="pet_type_rodent">啮齿动物</string>
+    <string name="pet_type_reptile">爬行动物</string>
+    <string name="pet_type_other">其他</string>
+    <string name="pet_type_unknown">未知</string>
+
+    <string name="gender_male">公</string>
+    <string name="gender_female">母</string>
+    <string name="gender_unknown">未知</string>
+
+    <string name="task_category_vet_visit">看兽医</string>
+    <string name="task_category_vaccination">疫苗接种</string>
+    <string name="task_category_grooming">美容</string>
+    <string name="task_category_medication">服药</string>
+    <string name="task_category_training">训练</string>
+    <string name="task_category_shopping">购物</string>
+    <string name="task_category_custom">其他</string>
+    <string name="subscription_enter_promo_code">输入优惠码</string>
+
+    <string name="expense_category_input_hint">其他文字</string>
+
+    <string name="reset_password_title">重置密码</string>
+    <string name="email_label">电子邮箱</string>
+    <string name="reset_password_button">重置密码</string>
+    <string name="password_reset_email_sent">重置密码说明已发送至您的邮箱。</string>
+    <string name="password_reset_error">重置密码错误：%s</string>
+    <string name="email_empty_warning">请输入电子邮箱地址。</string>
+    <string name="forgot_password_button">忘记密码？</string>
+</resources>

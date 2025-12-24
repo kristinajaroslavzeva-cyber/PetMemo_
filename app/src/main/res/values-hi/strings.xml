@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetMemo</string>
+    <string name="save">सहेजें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="delete">हटाएं</string>
+    <string name="edit">संपादित करें</string>
+    <string name="add">जोड़ें</string>
+    <string name="back">वापस</string>
+    <string name="confirm">पुष्टि करें</string>
+    <string name="loading">लोड हो रहा है…</string>
+    <string name="error">त्रुटि</string>
+    <string name="please_fill_all_fields">कृपया सभी आवश्यक फ़ील्ड भरें।</string>
+    <string name="date">दिनांक</string>
+    <string name="title_article">लेख</string>
+    <string name="title_main_menu">उपयोगी</string>
+    <string name="button_back">वापस</string>
+    <string name="error_content_not_found">सामग्री नहीं मिली।</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+    <string name="confirm_password">पासवर्ड की पुष्टि करें</string>
+    <string name="login_button">लॉग इन करें</string>
+    <string name="register_button">रजिस्टर करें</string>
+    <string name="switch_to_register">खाता नहीं है? रजिस्टर करें</string>
+    <string name="switch_to_login">पहले से खाता है? लॉग इन करें</string>
+    <string name="auth_error_passwords_do_not_match">पासवर्ड मेल नहीं खाते।</string>
+    <string name="auth_error_password_too_short">पासवर्ड में कम से कम 6 अक्षर होने चाहिए।</string>
+    <string name="auth_error_weak_password">पासवर्ड बहुत कमजोर है।</string>
+    <string name="auth_error_invalid_email">ईमेल प्रारूप अमान्य है।</string>
+    <string name="auth_error_user_collision">इस ईमेल वाला उपयोगकर्ता पहले से मौजूद है।</string>
+    <string name="auth_error_invalid_credentials">अमान्य ईमेल या पासवर्ड।</string>
+    <string name="auth_error_generic">प्रमाणीकरण त्रुटि: %s</string>
+
+    <string name="drawer_home">होम</string>
+    <string name="drawer_reports">रिपोर्ट</string>
+    <string name="drawer_useful_info">उपयोगी जानकारी</string>
+    <string name="drawer_about">ऐप के बारे में</string>
+    <string name="drawer_get_premium">प्रीमियम प्राप्त करें</string>
+
+    <string name="bottom_nav_home">होम</string>
+    <string name="bottom_nav_calendar">कैलेंडर</string>
+    <string name="bottom_nav_tasks">कार्य</string>
+    <string name="bottom_nav_map">नक्शा</string>
+
+    <string name="add_pet_title">नया पालतू जानवर जोड़ें</string>
+    <string name="edit_pet_title">पालतू जानवर को संपादित करें</string>
+    <string name="pet_name">नाम</string>
+    <string name="pet_type">प्रकार (जैसे, बिल्ली, कुत्ता)</string>
+    <string name="pet_breed">नस्ल</string>
+    <string name="pet_gender">लिंग</string>
+    <string name="pet_gender_male">नर</string>
+    <string name="pet_gender_female">मादा</string>
+    <string name="pet_birth_date">जन्म तिथि</string>
+    <string name="pet_photo">पालतू जानवर की फोटो</string>
+    <string name="pet_add_success">पालतू जानवर सफलतापूर्वक जोड़ा गया!</string>
+    <string name="pet_update_success">पालतू जानवर का डेटा सफलतापूर्वक अपडेट किया गया!</string>
+    <string name="dialog_delete_pet_title">पालतू जानवर को हटाएं?</string>
+    <string name="dialog_delete_pet_text">क्या आप वाकई इस पालतू जानवर और उससे जुड़े सभी डेटा को हटाना चाहते हैं? यह क्रिया अपरिवर्तनीय है।</string>
+
+    <string name="tab_health_diary">स्वास्थ्य डायरी</string>
+    <string name="tab_events">ईवेंट</string>
+    <string name="tab_expenses">खर्चे</string>
+    <string name="no_health_records">अभी कोई स्वास्थ्य रिकॉर्ड नहीं है।\nपहला जोड़ने के लिए «+» दबाएं।</string>
+    <string name="medical_record">चिकित्सा रिकॉर्ड</string>
+    <string name="no_medical_records">अभी कोई चिकित्सा रिकॉर्ड नहीं है।</string>
+    <string name="weight_chart_title">वजन चार्ट</string>
+    <string name="mood_chart_title">मूड चार्ट</string>
+    <string name="chart_not_enough_data">चार्ट बनाने के लिए कम से कम 2 रिकॉर्ड की आवश्यकता है।</string>
+    <string name="dialog_delete_record_title">रिकॉर्ड हटाएं?</string>
+    <string name="dialog_delete_record_text">क्या आप वाकई इस रिकॉर्ड को हटाना चाहते हैं?</string>
+
+    <string name="add_record_title_new">नया चिकित्सा रिकॉर्ड</string>
+    <string name="add_record_title_edit">रिकॉर्ड संपादित करें</string>
+    <string name="record_symptoms">लक्षण</string>
+    <string name="record_diagnosis">निदान (वैकल्पिक)</string>
+    <string name="record_treatment">उपचार (वैकल्पिक)</string>
+    <string name="record_clinic">क्लीनिक (वैकल्पिक)</string>
+    <string name="record_vet">पशु चिकित्सक (वैकल्पिक)</string>
+    <string name="record_notes">नोट्स (वैकल्पिक)</string>
+
+    <string name="map_screen_title">पशु चिकित्सक मानचित्र</string>
+    <string name="map_add_note_dialog_title">नोट जोड़ें</string>
+    <string name="map_note_title">शीर्षक (जैसे, "अच्छा पशु क्लीनिक")</string>
+    <string name="map_note_description">विवरण (वैकल्पिक)</string>
+    <string name="map_location_permission_denied">स्थान की अनुमति अस्वीकृत। मानचित्र पर अपना स्थान देखने के लिए सेटिंग्स में इसे प्रदान करें।</string>
+    <string name="map_location_loading">आपका स्थान निर्धारित किया जा रहा है…</string>
+    <string name="map_note_details_title">नोट:</string>
+    <string name="map_delete_note_button">नोट हटाएं</string>
+
+    <string name="documents_screen_title">दस्तावेज़</string>
+    <string name="document_name">दस्तावेज़ का नाम</string>
+    <string name="no_documents">अभी कोई दस्तावेज़ नहीं जोड़ा गया है।</string>
+    <string name="dialog_delete_document_title">दस्तावेज़ हटाएं?</string>
+    <string name="dialog_delete_document_text">क्या आप वाकई इस दस्तावेज़ को हटाना चाहते हैं?</string>
+
+    <string name="title_article_detail">लेख</string>
+    <string name="content_articles">लेख</string>
+    <string name="error_content_not_found_articles">लेख की सामग्री नहीं मिली।</string>
+
+    <string name="animal_type_cats">बिल्लियाँ</string>
+    <string name="animal_type_dogs">कुत्ते</string>
+    <string name="animal_type_fish">मछलियाँ</string>
+    <string name="animal_type_birds">पक्षी</string>
+    <string name="animal_type_small_mammals">छोटे स्तनधारी</string>
+    <string name="animal_type_reptiles_amphibians">सरीसृप और उभयचर</string>
+
+    <string name="about_title">ऐप के बारे में</string>
+    <string name="about_icon_description">ऐप आइकन</string>
+    <string name="about_version">वर्जन 1.0.0</string>
+    <string name="about_description">पालतू जानवरों की देखभाल में\nआपका निजी सहायक</string>
+    <string name="about_privacy_policy">गोपनीयता नीति</string>
+    <string name="todo_open_link">TODO: लिंक खोलें</string>
+
+    <string name="expense_select_category">श्रेणी चुनें</string>
+    <string name="expense_total">कुल खर्चा</string>
+    <string name="expense_amount">राशि</string>
+    <string name="expense_category">श्रेणी</string>
+    <string name="expense_new_category_title">नई श्रेणी</string>
+    <string name="expense_category_name_label">नाम</string>
+    <string name="expense_default_food">भोजन</string>
+    <string name="expense_default_toys">खिलौने</string>
+    <string name="expense_default_health">स्वास्थ्य</string>
+    <string name="expense_default_care">देखभाल</string>
+    <string name="expense_default_other">अन्य</string>
+    <string name="expense_add_new_category">+ नई श्रेणी</string>
+    <string name="expense_hint_enter_category">श्रेणी दर्ज करें</string>
+    <string name="expense_enter_amount_title">राशि दर्ज करें</string>
+    <string name="expense_amount_label">राशि</string>
+    <string name="expense_add_title">खर्चा जोड़ें</string>
+    <string name="expense_edit_title">खर्चा संपादित करें</string>
+    <string name="expense_label_expense">खर्चा</string>
+    <string name="expense_label_date">दिनांक</string>
+    <string name="expense_date_not_selected">चयनित नहीं</string>
+    <string name="expense_description_optional">विवरण (वैकल्पिक)</string>
+    <string name="validation_enter_valid_amount">कृपया सही राशि दर्ज करें</string>
+    <string name="validation_select_category">कृपया श्रेणी चुनें या दर्ज करें</string>
+
+    <string name="task_add_title">नया कार्य</string>
+    <string name="task_edit_title">कार्य संपादित करें</string>
+    <string name="task_share">साझा करें</string>
+    <string name="task_pet_selection_title">किस पालतू जानवर के लिए?</string>
+    <string name="task_category_selection_title">श्रेणी चुनें</string>
+    <string name="task_category_cancel">रद्द करें</string>
+    <string name="task_label_pet">पालतू जानवर</string>
+    <string name="task_pet_select_pet">पालतू जानवर चुनें</string>
+    <string name="task_label_category">श्रेणी</string>
+    <string name="task_label_description">कार्य विवरण</string>
+    <string name="task_label_date">दिनांक</string>
+    <string name="task_label_remind_me">मुझे याद दिलाएं</string>
+    <string name="task_label_time">समय</string>
+    <string name="task_default_time">09:00</string>
+
+    <string name="share_task_pet">कार्य इसके लिए: %s</string>
+    <string name="share_task_title">कार्य: %s</string>
+    <string name="share_task_date">दिनांक: %s</string>
+    <string name="share_task_chooser">कार्य साझा करें</string>
+    <string name="notification_pet_name_default">आपका पालतू जानवर</string>
+    <string name="notification_task_no_description">(कोई विवरण नहीं)</string>
+
+    <string name="validation_select_task_date">कृपया कार्य की दिनांक बताएं</string>
+    <string name="validation_select_date_first">पहले कार्य की दिनांक चुनें</string>
+
+    <string name="record_add_title">नया रिकॉर्ड</string>
+    <string name="record_edit_title">संपादन</string>
+    <string name="record_label_date">दिनांक</string>
+    <string name="record_label_symptoms_required">लक्षण / कारण (अनिवार्य)</string>
+    <string name="record_label_place_clinic">स्थान (क्लीनिक, घर)</string>
+    <string name="record_label_specialist">विशेषज्ञ (डॉक्टर का नाम)</string>
+    <string name="record_label_diagnosis_treatment">निदान / नुस्खा</string>
+    <string name="record_label_comment">टिप्पणी</string>
+    <string name="record_save_button">रिकॉर्ड सहेजें</string>
+    <string name="validation_enter_symptoms">कृपया लक्षण या कारण बताएं</string>
+
+    <string name="pet_edit_title">संपादित करें</string>
+    <string name="pet_save_button">सहेजें</string>
+    <string name="pet_photo_description">पालतू जानवर की फोटो</string>
+    <string name="pet_add_photo">फोटो जोड़ें</string>
+    <string name="pet_label_name">पालतू जानवर का नाम</string>
+    <string name="pet_label_type">जानवर का प्रकार</string>
+    <string name="pet_label_gender">लिंग</string>
+    <string name="pet_label_breed">नस्ल</string>
+    <string name="pet_label_color">रंग</string>
+    <string name="pet_label_birth_date">जन्म तिथि</string>
+    <string name="pet_label_family_date">परिवार में कब से</string>
+    <string name="pet_label_castrated">बधिया / नसबंदी</string>
+    <string name="pet_label_microchip">माइक्रोचिप</string>
+    <string name="pet_label_show_training">प्रशिक्षण डायरी दिखाएं</string>
+    <string name="pet_label_note">नोट</string>
+    <string name="pet_color_not_specified">निर्दिष्ट नहीं</string>
+
+    <string name="dialog_select_type_title">जानवर का प्रकार चुनें</string>
+    <string name="dialog_select_gender_title">लिंग चुनें</string>
+    <string name="dialog_select_color_title">रंग चुनें या दर्ज करें</string>
+    <string name="dialog_new_color_label">नया रंग</string>
+    <string name="dialog_image_source_title">फोटो स्रोत चुनें</string>
+    <string name="dialog_source_camera">कैमरे से फोटो लें</string>
+    <string name="dialog_source_gallery">गैलरी से चुनें</string>
+    <string name="dialog_status_title">स्थिति बताएं</string>
+    <string name="dialog_yes">हाँ</string>
+    <string name="dialog_no">नहीं</string>
+
+    <string name="color_black">काला</string>
+    <string name="color_white">सफेद</string>
+    <string name="color_gray">ग्रे</string>
+    <string name="color_ginger">नारंगी/अदरक</string>
+    <string name="color_spotted">चित्तीदार</string>
+    <string name="color_tricolor">तिरंगा</string>
+
+    <string name="validation_pet_name_empty">पालतू जानवर का नाम खाली नहीं हो सकता</string>
+    <string name="permission_gallery_denied">गैलरी तक पहुंच अस्वीकृत</string>
+    <string name="permission_camera_denied">कैमरा उपयोग की अनुमति अस्वीकृत</string>
+
+    <string name="training_add_title">नया प्रशिक्षण</string>
+    <string name="training_edit_title">संपादित करें</string>
+    <string name="training_dialog_select_status">स्थिति चुनें</string>
+    <string name="training_label_command">कमांड (जैसे, \'बैठो\')</string>
+    <string name="training_label_status">स्थिति</string>
+    <string name="training_label_start_date">प्रारंभ तिथि</string>
+    <string name="training_label_notes">टिप्पणियाँ</string>
+    <string name="validation_enter_command_name">कृपया कमांड का नाम दर्ज करें</string>
+
+    <string name="tasks_all_title">सभी कार्य</string>
+    <string name="tasks_empty_list">आपके पास अभी कोई नियोजित कार्य नहीं है।</string>
+    <string name="tasks_general_task">सामान्य कार्य</string>
+    <string name="tasks_dialog_confirmation">पुष्टि</string>
+    <string name="tasks_dialog_delete_text">क्या आप वाकई कार्य \'%s\' को हटाना चाहते हैं?</string>
+    <string name="tasks_dialog_delete">हटाएं</string>
+    <string name="tasks_dialog_cancel">रद्द करें</string>
+    <string name="tasks_pet_label">पालतू जानवर: %s</string>
+    <string name="tasks_no_description">(कोई विवरण नहीं)</string>
+
+    <string name="auth_register_title">पंजीकरण</string>
+    <string name="auth_login_title">लॉग इन</string>
+    <string name="auth_email_label">ईमेल</string>
+    <string name="auth_password_label">पासवर्ड</string>
+    <string name="auth_hide_password">पासवर्ड छिपाएं</string>
+    <string name="auth_show_password">पासवर्ड दिखाएं</string>
+    <string name="auth_register_button">रजिस्टर करें</string>
+    <string name="auth_login_button">लॉग इन करें</string>
+    <string name="auth_switch_to_login">पहले से खाता है? लॉग इन करें</string>
+    <string name="auth_switch_to_register">खाता नहीं है? रजिस्टर करें</string>
+    <string name="auth_sign_in_google">Google के साथ लॉग इन करें</string>
+    <string name="auth_snackbar_action_ok">ठीक है</string>
+
+    <string name="error_google_sign_in_failed">Google साइन-इन विफल: कोड %1$d, संदेश: %2$s, कारण: %3$s</string>
+    <string name="error_google_sign_in_unknown">अज्ञात Google साइन-इन त्रुटि: %1$s</string>
+    <string name="error_google_sign_in_cancelled">Google साइन-इन रद्द या विफल रहा। परिणाम कोड: %1$d</string>
+
+    <string name="calculator_title_main">कैलकुलेटर</string>
+    <string name="calculator_title_food_adult">भोजन की मात्रा: वयस्क</string>
+    <string name="calculator_title_food_puppy">भोजन की मात्रा: पिल्ले/बिल्ली के बच्चे</string>
+    <string name="calculator_title_food_active">भोजन की मात्रा: सक्रिय</string>
+    <string name="calculator_title_age_cat">आयु: बिल्लियाँ</string>
+    <string name="calculator_title_age_dog_small">आयु: छोटे कुत्ते</string>
+    <string name="calculator_title_age_dog_large">आयु: बड़े कुत्ते</string>
+    <string name="calculator_title_water">पानी की मात्रा</string>
+    <string name="calculator_title_supply">भोजन का भंडार</string>
+    <string name="calculator_title_gestation">गर्भावस्था कैलेंडर</string>
+
+    <string name="menu_food_adult_title">भोजन की मात्रा: वयस्क, नसबंदीकृत</string>
+    <string name="menu_food_adult_desc">वयस्क बिल्लियों/कुत्तों के लिए गणना</string>
+    <string name="menu_food_puppy_title">भोजन की मात्रा: पिल्ले/बिल्ली के बच्चे</string>
+    <string name="menu_food_puppy_desc">बढ़ते पालतू जानवरों के लिए गणना</string>
+    <string name="menu_food_active_title">भोजन की मात्रा: सक्रिय/गैर-नसबंदीकृत</string>
+    <string name="menu_food_active_desc">अत्यधिक गतिविधि वाले पालतू जानवरों के लिए</string>
+
+    <string name="menu_age_cat_title">आयु: बिल्लियाँ</string>
+    <string name="menu_age_cat_desc">बिल्ली की \'मानव\' वर्षों में आयु (अनुमानित)</string>
+    <string name="menu_age_dog_small_title">आयु: छोटे कुत्ते</string>
+    <string name="menu_age_dog_small_desc">छोटे कुत्तों की \'मानव\' वर्षों में आयु (अनुमानित)</string>
+    <string name="menu_age_dog_large_title">आयु: बड़े कुत्ते</string>
+    <string name="menu_age_dog_large_desc">बड़े कुत्तों की \'मानव\' वर्षों में आयु (अनुमानित)</string>
+
+    <string name="menu_water_title">दैनिक पानी की मात्रा</string>
+    <string name="menu_water_desc">जानें कि पालतू जानवर को कितना पानी पीना चाहिए</string>
+    <string name="menu_supply_title">भोजन कब तक चलेगा?</string>
+    <string name="menu_supply_desc">गणना करें कि नया पैक कब खरीदना है</string>
+    <string name="menu_gestation_title">गर्भावस्था कैलेंडर</string>
+    <string name="menu_gestation_desc">अनुमानित प्रसव तिथि (बिल्लियाँ/कुत्ते) की गणना करें</string>
+
+    <string name="calc_label_weight">पालतू जानवर का वजन (kg)</string>
+    <string name="calc_label_calories">भोजन की कैलोरी (kcal प्रति 100g)</string>
+    <string name="calc_label_pack_weight">पैक का वजन (kg)</string>
+    <string name="calc_label_daily_portion">दैनिक मात्रा (g)</string>
+    <string name="calc_button_calculate">गणना करें</string>
+    <string name="calc_result_daily_portion">दैनिक मात्रा: %d g</string>
+    <string name="calc_result_error">कृपया सही डेटा दर्ज करें</string>
+
+    <string name="calc_desc_adult_food">वयस्क, नसबंदीकृत बिल्लियों और कुत्तों के लिए। यह एक अनुमान है, पशु चिकित्सक से सलाह लें।</string>
+    <string name="calc_desc_puppy_food">पिल्लों और बिल्ली के बच्चों के लिए। गणना उम्र, नस्ल और विकास दर पर निर्भर करती है। पशु चिकित्सक से सलाह अवश्य लें।</string>
+    <string name="calc_desc_active_food">सक्रिय, गैर-नसबंदीकृत या कामकाजी जानवरों के लिए। गणना अनुमानित है।</string>
+    <string name="calc_desc_age_cat">बिल्लियों के लिए \'मानव\' आयु की गणना। यह बहुत ही अनुमानित है।</string>
+    <string name="calc_desc_age_dog_small">छोटे कुत्तों (10 kg तक) के लिए \'मानव\' आयु की गणना। यह बहुत ही अनुमानित है।</string>
+    <string name="calc_desc_age_dog_large">बड़े कुत्तों (25 kg से अधिक) के लिए \'मानव\' आयु की गणना। यह बहुत ही अनुमानित है।</string>
+    <string name="calc_desc_water">अधिकांश स्वस्थ बिल्लियों और कुत्तों के लिए अनुमानित दैनिक पानी की मात्रा। यह पशु चिकित्सक की सलाह का विकल्प नहीं है।</string>
+    <string name="calc_desc_gestation">बिल्लियों और कुत्तों के लिए औसत गर्भावस्था 63 दिन होती है। तारीख थोड़ी भिन्न हो सकती है।</string>
+
+    <string name="calc_result_human_age">आपके पालतू जानवर की उम्र\nलगभग\n%d\nमानव वर्षों के बराबर है</string>
+    <string name="calc_result_water_intake">दैनिक मात्रा: ~%d ml</string>
+    <string name="calc_result_food_supply">यह पैक लगभग %d दिनों तक चलेगा</string>
+    <string name="calc_result_gestation_date">अनुमानित प्रसव तिथि:\n%s</string>
+    <string name="calc_dialog_select_pet">पालतू जानवर चुनें</string>
+    <string name="calc_label_pet_name">पालतू जानवर</string>
+    <string name="calc_label_mating_date">मिलन की तिथि</string>
+
+    <string name="contacts_title">संपर्क</string>
+    <string name="contacts_call">कॉल करें</string>
+    <string name="contacts_whatsapp">WhatsApp पर लिखें</string>
+    <string name="contacts_delete">हटाएं</string>
+    <string name="contacts_empty_list">अभी कोई संपर्क नहीं है।\nजोड़ने के लिए \'+\' दबाएं।</string>
+    <string name="contacts_header_unknown">अज्ञात संपर्क</string>
+
+    <string name="dialog_contact_new_title">नया संपर्क</string>
+    <string name="dialog_contact_import_button">फोन से आयात करें</string>
+    <string name="dialog_contact_label_name_required">नाम (अनिवार्य)</string>
+    <string name="dialog_contact_label_phone_required">फोन (अनिवार्य)</string>
+    <string name="dialog_contact_label_type_hint">प्रकार (पशु चिकित्सक, ग्रूमर...)</string>
+    <string name="dialog_contact_label_notes_hint">नोट्स (पता, समय)</string>
+    <string name="dialog_contact_save">सहेजें</string>
+
+    <string name="dialog_delete_contact_title">संपर्क हटाएं?</string>
+    <string name="dialog_delete_contact_text">क्या आप वाकई संपर्क \'%s\' को हटाना चाहते हैं? यह क्रिया रद्द नहीं की जा सकती।</string>
+
+    <string name="toast_whatsapp_not_installed">WhatsApp स्थापित नहीं है या नंबर गलत है</string>
+    <string name="toast_contact_required_fields">नाम, फोन और प्रकार अनिवार्य हैं</string>
+    <string name="toast_permission_contacts_denied">संपर्क पढ़ने की अनुमति अस्वीकृत</string>
+    <string name="toast_contact_name_default">अज्ञात संपर्क</string>
+
+    <string name="contacts_add">संपर्क जोड़ें</string>
+
+    <string name="documents_title">मेरे दस्तावेज़</string>
+    <string name="documents_add_fab">दस्तावेज़ अपलोड करें</string>
+    <string name="documents_common_name">सामान्य दस्तावेज़</string>
+    <string name="documents_common_header">सामान्य दस्तावेज़</string>
+    <string name="documents_date_added">%1$s • %2$s</string>
+    <string name="documents_empty_list">अभी कोई दस्तावेज़ नहीं है।\nपहला अपलोड करने के लिए \'+\' दबाएं।</string>
+    <string name="documents_delete_content_desc">हटाएं</string>
+
+    <string name="dialog_document_new_title">नया दस्तावेज़</string>
+    <string name="dialog_document_label_name">दस्तावेज़ का नाम</string>
+    <string name="dialog_document_label_pet_bind">इससे जोड़ें</string>
+    <string name="dialog_document_button_select_file">फ़ाइल चुनें</string>
+    <string name="dialog_document_button_file_selected">फ़ाइल चयनित</string>
+    <string name="dialog_document_save">सहेजें</string>
+
+    <string name="dialog_document_confirmation">पुष्टि</string>
+    <string name="dialog_document_delete_text">क्या आप वाकई दस्तावेज़ \'%s\' को हटाना चाहते हैं?</string>
+    <string name="dialog_document_delete_button">हटाएं</string>
+
+    <string name="toast_document_required_fields">नाम भरें और फ़ाइल चुनें</string>
+    <string name="toast_document_save_failed">फ़ाइल सहेजने में विफल</string>
+    <string name="toast_file_deleted">फ़ाइल हटा दी गई</string>
+    <string name="toast_file_delete_failed">फ़ाइल हटाने में विफल</string>
+    <string name="toast_file_open_failed">फ़ाइल खोलने में विफल: %s</string>
+    <string name="toast_file_not_found">पथ पर फ़ाइल नहीं मिली: %s</string>
+
+    <string name="checklist_new_title_default">नई चेकलिस्ट</string>
+    <string name="checklist_edit_title">संपादन</string>
+    <string name="checklist_delete_icon_desc">चेकलिस्ट हटाएं</string>
+    <string name="checklist_save_icon_desc">सहेजें</string>
+    <string name="checklist_label_name">चेकलिस्ट का नाम</string>
+    <string name="checklist_label_item_prefix">आइटम</string>
+    <string name="checklist_item_delete_desc">आइटम हटाएं</string>
+    <string name="checklist_button_add_item">आइटम जोड़ें</string>
+
+    <string name="dialog_checklist_delete_title">चेकलिस्ट हटाएं?</string>
+    <string name="dialog_checklist_delete_text">क्या आप वाकई \'%s\' को हटाना चाहते हैं? यह क्रिया अपरिवर्तनीय है।</string>
+    <string name="dialog_checklist_delete_button">हटाएं</string>
+
+    <string name="toast_checklist_name_empty">नाम खाली नहीं हो सकता</string>
+
+    <string name="pet_list_title">मेरे पालतू जानवर</string>
+    <string name="pet_list_menu_icon_desc">मेनू</string>
+    <string name="pet_list_notifications_icon_desc">रिमाइंडर</string>
+    <string name="pet_list_empty_message">आपके पास अभी कोई पालतू जानवर नहीं है।\nपहला जोड़ने के लिए नीचे \'+\' दबाएं!</string>
+    <string name="reminder_dialog_title">आगामी रिमाइंडर</string>
+    <string name="reminder_dialog_empty">आपके पास कोई आगामी रिमाइंडर नहीं है।</string>
+    <string name="reminder_dialog_general_task">सामान्य</string>
+    <string name="reminder_dialog_button_ok">ठीक है</string>
+    <string name="dialog_confirmation_title">पुष्टि</string>
+    <string name="dialog_delete_pet_button">हटाएं</string>
+
+    <string name="pet_card_photo_desc">पालतू जानवर की फोटो</string>
+    <string name="reminder_item_pet_category_format">%1$s • %2$s</string>
+
+    <string name="html_title_terms">उपयोगकर्ता समझौता</string>
+    <string name="html_title_privacy">गोपनीयता नीति</string>
+    <string name="html_title_description">ऐप विवरण</string>
+
+    <string name="nav_pets">पालतू जानवर</string>
+    <string name="nav_tasks">कार्य</string>
+    <string name="nav_add">जोड़ें</string>
+    <string name="nav_finance">वित्त</string>
+    <string name="nav_map">नक्शा</string>
+    <string name="nav_reminders">रिमाइंडर</string>
+    <string name="nav_pet_limit_message">आपके पास अभी कोई पालतू जानवर नहीं है।\nपहला जोड़ने के लिए नीचे \'+\' दबाएं!</string>
+
+    <string name="drawer_status_premium">स्थिति: प्रीमियम</string>
+    <string name="drawer_status_free">स्थिति: निःशुल्क</string>
+    <string name="drawer_manage_subscription">सदस्यता प्रबंधन</string>
+    <string name="drawer_calculators">कैलकुलेटर</string>
+    <string name="drawer_useful">उपयोगी</string>
+    <string name="drawer_checklists">चेकलिस्ट</string>
+    <string name="drawer_documents">मेरे दस्तावेज़</string>
+    <string name="drawer_contacts">संपर्क</string>
+    <string name="drawer_settings">सेटिंग्स</string>
+    <string name="drawer_section_documents">दस्तावेज़</string>
+    <string name="drawer_terms_of_use">उपयोगकर्ता समझौता</string>
+    <string name="drawer_privacy_policy">गोपनीयता नीति</string>
+    <string name="drawer_about_app">ऐप के बारे में</string>
+    <string name="drawer_logout">बाहर निकलें</string>
+    <string name="drawer_logout_desc">लॉग आउट करें</string>
+    <string name="drawer_app_logo_desc">ऐप लोगो</string>
+
+    <string name="welcome_message">PetMemo में आपका स्वागत है!</string>
+
+    <string name="map_title">नक्शा</string>
+    <string name="map_permission_granted">स्थान की अनुमति मिल गई।</string>
+    <string name="map_permission_denied">स्थान की अनुमति अस्वीकृत।</string>
+    <string name="map_permission_needed_snackbar">आपका स्थान दिखाने के लिए अनुमति आवश्यक है।</string>
+    <string name="map_permission_already_granted">FINE_LOCATION की अनुमति पहले से है।</string>
+    <string name="map_permission_requesting">FINE_LOCATION की अनुमति नहीं है, अनुरोध किया जा रहा है।</string>
+    <string name="map_location_updates_started">स्थान अपडेट का अनुरोध शुरू किया गया।</string>
+    <string name="map_location_updates_stopped">स्थान अपडेट रोक दिए गए।</string>
+    <string name="map_location_update_security_error">स्थान का अनुरोध करते समय सुरक्षा त्रुटि: %s</string>
+    <string name="map_location_getting">आपका स्थान प्राप्त किया जा रहा है...</string>
+
+    <string name="marker_title_you_are_here">आप यहाँ हैं</string>
+    <string name="marker_snippet_current_location">आपका वर्तमान स्थान</string>
+
+    <string name="note_details_title_default">नोट शीर्षक</string>
+    <string name="note_button_delete">हटाएं</string>
+    <string name="note_button_close">बंद करें</string>
+    <string name="note_deleted_snackbar">नोट \'%s\' हटा दिया गया।</string>
+
+    <string name="dialog_note_add_title">नोट जोड़ें</string>
+    <string name="dialog_note_label_title">शीर्षक</string>
+    <string name="dialog_note_label_description">विवरण (वैकल्पिक)</string>
+    <string name="dialog_note_add_button">जोड़ें</string>
+    <string name="dialog_note_added_snackbar">नोट जोड़ा गया!</string>
+    <string name="dialog_note_title_empty_snackbar">शीर्षक खाली नहीं हो सकता।</string>
+
+    <string name="record_detail_loading">लोड हो रहा है...</string>
+    <string name="record_detail_symptoms">लक्षण: %s</string>
+    <string name="record_detail_date">दिनांक: %s</string>
+    <string name="record_detail_place">स्थान: %s</string>
+    <string name="record_detail_specialist">विशेषज्ञ: %s</string>
+    <string name="record_detail_diagnosis">निदान/नुस्खा: %s</string>
+    <string name="record_detail_treatment">उपचार: %s</string>
+    <string name="record_detail_note">नोट: %s</string>
+    <string name="record_detail_section_notes">अवलोकन / टिप्पणियाँ</string>
+    <string name="record_detail_add_note_label">नया अवलोकन जोड़ें...</string>
+    <string name="record_detail_add_note_button">अवलोकन जोड़ें</string>
+
+    <string name="note_edit_desc">संपादित करें</string>
+    <string name="note_delete_desc">हटाएं</string>
+    <string name="dialog_note_edit_title">अवलोकन संपादित करें</string>
+    <string name="dialog_note_delete_title">टिप्पणी हटाएं?</string>
+    <string name="dialog_note_delete_text">क्या आप वाकई इस टिप्पणी को हटाना चाहते हैं?</string>
+
+    <string name="settings_title">सेटिंग्स</string>
+    <string name="settings_label_theme">थीम</string>
+    <string name="settings_label_currency">मुद्रा</string>
+
+    <string name="dialog_select_currency">मुद्रा चुनें</string>
+    <string name="dialog_select_theme">थीम चुनें</string>
+
+    <string name="theme_default">डिफ़ॉल्ट</string>
+    <string name="theme_dark">डार्क</string>
+
+
+    <string name="info_section_main">मुख्य जानकारी</string>
+    <string name="info_label_type">प्रकार</string>
+    <string name="info_label_gender">लिंग</string>
+    <string name="info_label_breed">नस्ल</string>
+    <string name="info_label_color">रंग</string>
+    <string name="info_label_not_specified">निर्दिष्ट नहीं</string>
+    <string name="info_label_not_specified_f">निर्दिष्ट नहीं</string>
+    <string name="info_section_dates">तिथियां</string>
+    <string name="info_label_birth_date">जन्म तिथि</string>
+    <string name="info_label_family_date">परिवार में कब से</string>
+    <string name="info_section_medical">मेडिकल कार्ड</string>
+    <string name="info_label_castrated">बधिया/नसबंदी</string>
+    <string name="info_label_microchip">माइक्रोचिप</string>
+    <string name="info_label_yes">हाँ</string>
+    <string name="info_label_no">नहीं</string>
+    <string name="info_section_note">नोट</string>
+    <string name="info_label_not_available">N/A</string>
+
+    <string name="training_diary_empty">अभी कोई प्रशिक्षण रिकॉर्ड नहीं है।\nपहला जोड़ने के लिए \'+\' दबाएं।</string>
+    <string name="training_create_task_desc">कार्य बनाएं</string>
+    <string name="training_task_title_format">प्रशिक्षण: %s</string>
+
+    <string name="health_tracker_mood">मूड ट्रैकर</string>
+    <string name="health_tracker_mood_today">आज पालतू जानवर का मूड कैसा है?</string>
+    <string name="health_tracker_weight">वजन ट्रैकर</string>
+    <string name="health_tracker_weight_label">वजन, kg</string>
+    <string name="health_tracker_weight_button">जोड़ें</string>
+    <string name="health_record_section">मेडिकल कार्ड</string>
+    <string name="health_record_empty">मेडिकल कार्ड में अभी कोई रिकॉर्ड नहीं है।</string>
+    <string name="health_chart_min_entries">ग्राफ़ बनाने के लिए कम से कम 2 रिकॉर्ड की आवश्यकता है</string>
+    <string name="health_dialog_edit_weight_title">वजन संपादित करें</string>
+    <string name="health_dialog_edit_mood_title">मूड बदलें</string>
+    <string name="health_dialog_edit_mood_question">%s को पालतू जानवर का मूड कैसा था?</string>
+    <string name="health_dialog_delete_title">रिकॉर्ड हटाएं?</string>
+    <string name="health_dialog_delete_confirm_text">क्या आप सुनिश्चित हैं?</string>
+    <string name="health_dialog_delete_button">हटाएं</string>
+    <string name="health_add_record_fab">रिकॉर्ड जोड़ें</string>
+    <string name="health_add_training_fab">प्रशिक्षण जोड़ें</string>
+    <string name="health_mood_collapse_desc">समेटें/विस्तार करें</string>
+    <string name="health_record_task_title_format">चिकित्सा कार्य: %s</string>
+
+    <string name="record_card_diagnosis_format">निदान: %s</string>
+    <string name="record_card_share_desc">साझा करें</string>
+    <string name="share_medical_record_title">पालतू चिकित्सा रिकॉर्ड:</string>
+    <string name="share_medical_record_date">दिनांक: %s</string>
+    <string name="share_medical_record_symptoms">लक्षण: %s</string>
+    <string name="share_medical_record_diagnosis">निदान: %s</string>
+    <string name="share_medical_record_treatment">उपचार: %s</string>
+    <string name="share_medical_record_vet">पशु चिकित्सक: %s</string>
+    <string name="share_medical_record_clinic">क्लीनिक: %s</string>
+    <string name="share_medical_record_notes">नोट्स: %s</string>
+    <string name="share_chooser_record">चिकित्सा रिकॉर्ड साझा करें</string>
+
+    <string name="tab_info">जानकारी</string>
+    <string name="tab_health">स्वास्थ्य</string>
+    <string name="tab_training">प्रशिक्षण</string>
+    <string name="pet_detail_loading">लोड हो रहा है...</string>
+    <string name="pet_detail_edit_icon_desc">संपादित करें</string>
+    <string name="pet_detail_add_record_desc">रिकॉर्ड जोड़ें</string>
+    <string name="pet_detail_add_training_desc">प्रशिक्षण जोड़ें</string>
+
+    <string name="item_edit_desc">संपादित करें</string>
+    <string name="item_delete_desc">हटाएं</string>
+    <string name="item_weight_desc">वजन</string>
+
+    <string name="dialog_delete_training_text">क्या आप वाकई इस प्रशिक्षण रिकॉर्ड को हटाना चाहते हैं?</string>
+    <string name="dialog_delete_button">हटाएं</string>
+    <string name="task_empty_list">अभी कोई कार्य नहीं है।\nजोड़ने के लिए \'+\' दबाएं।</string>
+
+    <string name="checklists_title">चेकलिस्ट</string>
+    <string name="checklists_my_lists">मेरी चेकलिस्ट</string>
+    <string name="checklists_copy_desc">\'मेरी चेकलिस्ट\' में कॉपी करें</string>
+    <string name="checklists_template_copied_toast">\'%s\' कॉपी किया गया!</string>
+    <string name="checklists_expand_desc">समेटें/विस्तार करें</string>
+    <string name="checklists_add_new">नई चेकलिस्ट बनाएं</string>
+    <string name="checklists_loading">लोड हो रहा है...</string>
+    <string name="checklists_edit">संपादित करें</string>
+    <string name="checklists_empty_message">अभी कोई चेकलिस्ट नहीं है।\nजोड़ने के लिए \'+\' दबाएं।</string>
+
+
+    <string name="delete_button">हटाएं</string>
+    <string name="save_button">सहेजें</string>
+    <string name="edit_button">संपादित करें</string>
+
+    <string name="data_not_available">डेटा उपलब्ध नहीं</string>
+
+    <string name="expense_reports_title">वित्त रिपोर्ट</string>
+    <string name="expense_structure">व्यय संरचना</string>
+    <string name="expense_icon_desc">व्यय आइकन</string>
+    <string name="expense_general">सामान्य</string>
+    <string name="expense_all">सभी खर्चे</string>
+    <string name="expense_unknown_pet">अज्ञात पालतू जानवर</string>
+    <string name="expense_delete_confirm">हटाने की पुष्टि</string>
+    <string name="expense_delete_text">क्या आप वाकई इस खर्चे को हटाना चाहते हैं?</string>
+    <string name="date_range_start">प्रारंभ</string>
+    <string name="date_range_end">अंत</string>
+
+    <string name="date_filter_today">आज</string>
+    <string name="date_filter_this_month">इस महीने</string>
+    <string name="date_filter_last_month">पिछले महीने</string>
+    <string name="date_filter_this_year">इस साल</string>
+    <string name="date_filter_all_time">अब तक का सब</string>
+    <string name="date_filter_custom">कस्टम</string>
+    <string name="expense_filter_all_cats">सभी श्रेणियां</string>
+    <string name="expense_filter_date_range">दिनांक सीमा चुनें</string>
+
+    <string name="cancel_button">रद्द करें</string>
+
+    <string name="benefit_unlimited_pets">असीमित पालतू जानवर</string>
+    <string name="benefit_map_access">इंटरैक्टिव मानचित्र तक पहुंच</string>
+    <string name="benefit_no_ads">कोई विज्ञापन नहीं</string>
+    <string name="benefit_priority_support">प्राथमिकता सहायता</string>
+
+    <string name="option_monthly_title">मासिक सदस्यता</string>
+    <string name="option_monthly_price">$3 / महीना</string>
+    <string name="option_monthly_desc">कोशिश करने के लिए उत्तम</string>
+    <string name="option_annual_title">वार्षिक सदस्यता</string>
+    <string name="option_annual_price">$30 / वर्ष</string>
+    <string name="option_annual_desc">प्रति वर्ष $6 बचाएं!</string>
+    <string name="error_loading_products">उत्पाद लोड करने में त्रुटि। कृपया बाद में पुनः प्रयास करें।</string>
+
+    <string name="subscription_title">PetMemo Premium सदस्यता</string>
+    <string name="subscription_activated">सदस्यता सक्रिय हो गई!</string>
+    <string name="subscription_already_premium">आपके पास पहले से PetMemo Premium है!</string>
+    <string name="subscription_get_premium">PetMemo Premium के साथ अधिकतम लाभ उठाएं!</string>
+    <string name="subscription_benefits_header">सभी सुविधाओं का आनंद लें:</string>
+    <string name="subscription_restore_purchases">खरीदारी पुनर्स्थापित करें</string>
+    <string name="subscription_reset_fake">सदस्यता रीसेट करें (Fake)</string>
+    <string name="subscription_terms">यदि वर्तमान अवधि समाप्त होने से कम से कम 24 घंटे पहले रद्द नहीं किया जाता है, तो आपकी सदस्यता स्वचालित रूप से नवीनीकृत हो जाएगी। अपनी Google/RuStore खाता सेटिंग में सदस्यता प्रबंधित करें।</string>
+    <string name="pet_diary_title">आपके प्यारे पालतू जानवर की डायरी</string>
+
+    <string name="mood_happy">खुश</string>
+    <string name="mood_playful">चंचल</string>
+    <string name="mood_calm">शांत</string>
+    <string name="mood_anxious">चिंतित</string>
+    <string name="mood_sad">उदास</string>
+    <string name="health_label_weight_kg">वजन, kg</string>
+
+    <string name="pet_type_dog">कुत्ता</string>
+    <string name="pet_type_cat">बिल्ली</string>
+    <string name="pet_type_bird">पक्षी</string>
+    <string name="pet_type_fish">मछली</string>
+    <string name="pet_type_rodent">कृंतक</string>
+    <string name="pet_type_reptile">सरीसृप</string>
+    <string name="pet_type_other">अन्य</string>
+    <string name="pet_type_unknown">अज्ञात</string>
+
+    <string name="gender_male">नर</string>
+    <string name="gender_female">मादा</string>
+    <string name="gender_unknown">अज्ञात</string>
+
+    <string name="task_category_vet_visit">डॉक्टर के पास जाना</string>
+    <string name="task_category_vaccination">टीकाकरण</string>
+    <string name="task_category_grooming">ग्रूमिंग</string>
+    <string name="task_category_medication">दवा लेना</string>
+    <string name="task_category_training">प्रशिक्षण</string>
+    <string name="task_category_shopping">खरीदारी</string>
+    <string name="task_category_custom">अन्य</string>
+    <string name="subscription_enter_promo_code">प्रोमो कोड दर्ज करें</string>
+
+    <string name="expense_category_input_hint">अन्य पाठ</string>
+
+    <string name="reset_password_title">पासवर्ड रीसेट</string>
+    <string name="email_label">ईमेल</string>
+    <string name="reset_password_button">पासवर्ड रीसेट करें</string>
+    <string name="password_reset_email_sent">पासवर्ड रीसेट निर्देश आपके ईमेल पर भेज दिए गए हैं।</string>
+    <string name="password_reset_error">पासवर्ड रीसेट त्रुटि: %s</string>
+    <string name="email_empty_warning">कृपया अपना ईमेल पता दर्ज करें।</string>
+    <string name="forgot_password_button">पासवर्ड भूल गए?</string>
+</resources>

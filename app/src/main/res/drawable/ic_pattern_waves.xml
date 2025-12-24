@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <group
+        android:rotation="-15"
+        android:pivotX="60"
+        android:pivotY="60">
+
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeAlpha="0.4"
+            android:strokeWidth="1.5"
+            android:strokeLineCap="round"
+            android:pathData="
+                M -10,20 C 20,10 50,35 60,30 C 65,28 75,20 70,35
+                M 50,50 C 80,40 110,65 120,60 C 125,58 135,50 130,65
+                M -20,80 C 10,70 40,95 50,90 C 55,88 65,80 60,95
+                " />
+
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeAlpha="0.7"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="
+                M -15,45 C 25,30 65,60 75,55 C 80,53 95,40 85,60
+                M 30,110 C 70,95 110,125 120,120 C 125,118 140,105 130,125
+                " />
+    </group>
+</vector>

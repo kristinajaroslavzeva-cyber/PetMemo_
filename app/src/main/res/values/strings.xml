@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+        <string name="default_web_client_id">***082725599-hl7oberegn2fb7fltqre84dlfit7932f.apps.googleusercontent.com</string>
+    <string name="app_name">PetMemo</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Редактировать</string>
+    <string name="add">Добавить</string>
+    <string name="back">Назад</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="loading">Загрузка…</string>
+    <string name="error">Ошибка</string>
+    <string name="please_fill_all_fields">Пожалуйста, заполните все обязательные поля.</string>
+    <string name="date">Дата</string>
+    <string name="title_article">Статья</string>
+    <string name="title_main_menu">Полезное</string>
+    <string name="button_back">Назад</string>
+    <string name="error_content_not_found">Контент не найден.</string>
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтверждение пароля</string>
+    <string name="login_button">Войти</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="switch_to_register">Нет аккаунта? Зарегистрироваться</string>
+    <string name="switch_to_login">Уже есть аккаунт? Войти</string>
+    <string name="auth_error_passwords_do_not_match">Пароли не совпадают.</string>
+    <string name="auth_error_password_too_short">Пароль должен содержать не менее 6 символов.</string>
+    <string name="auth_error_weak_password">Слишком слабый пароль.</string>
+    <string name="auth_error_invalid_email">Неверный формат email.</string>
+    <string name="auth_error_user_collision">Пользователь с таким email уже существует.</string>
+    <string name="auth_error_invalid_credentials">Неверный email или пароль.</string>
+    <string name="auth_error_generic">Ошибка аутентификации: %s</string>
+
+
+    <string name="drawer_home">Главная</string>
+    <string name="drawer_reports">Отчеты</string>
+    <string name="drawer_useful_info">Полезная информация</string>
+    <string name="drawer_about">О приложении</string>
+    <string name="drawer_get_premium">Получить Премиум</string>
+
+    <string name="bottom_nav_home">Главная</string>
+    <string name="bottom_nav_calendar">Календарь</string>
+    <string name="bottom_nav_tasks">Задачи</string>
+    <string name="bottom_nav_map">Карта</string>
+
+    <string name="add_pet_title">Добавить нового питомца</string>
+    <string name="edit_pet_title">Редактировать питомца</string>
+    <string name="pet_name">Имя</string>
+    <string name="pet_type">Тип (напр., Кошка, Собака)</string>
+    <string name="pet_breed">Порода</string>
+    <string name="pet_gender">Пол</string>
+    <string name="pet_gender_male">Самец</string>
+    <string name="pet_gender_female">Самка</string>
+    <string name="pet_birth_date">Дата рождения</string>
+    <string name="pet_photo">Фото питомца</string>
+    <string name="pet_add_success">Питомец успешно добавлен!</string>
+    <string name="pet_update_success">Данные питомца успешно обновлены!</string>
+    <string name="dialog_delete_pet_title">Удалить питомца?</string>
+    <string name="dialog_delete_pet_text">Вы уверены, что хотите удалить этого питомца и все связанные с ним данные? Это действие необратимо.</string>
+
+    <string name="tab_health_diary">Дневник здоровья</string>
+    <string name="tab_events">События</string>
+    <string name="tab_expenses">Расходы</string>
+    <string name="no_health_records">Записей о здоровье пока нет.\nНажмите «+», чтобы добавить первую.</string>
+    <string name="medical_record">Медицинская запись</string>
+    <string name="no_medical_records">Медицинских записей пока нет.</string>
+    <string name="weight_chart_title">График веса</string>
+    <string name="mood_chart_title">График настроения</string>
+    <string name="chart_not_enough_data">Для построения графика требуется минимум 2 записи.</string>
+    <string name="dialog_delete_record_title">Удалить запись?</string>
+    <string name="dialog_delete_record_text">Вы уверены, что хотите удалить эту запись?</string>
+
+    <string name="add_record_title_new">Новая медицинская запись</string>
+    <string name="add_record_title_edit">Редактировать запись</string>
+    <string name="record_symptoms">Симптомы</string>
+    <string name="record_diagnosis">Диагноз (необязательно)</string>
+    <string name="record_treatment">Лечение (необязательно)</string>
+    <string name="record_clinic">Клиника (необязательно)</string>
+    <string name="record_vet">Ветеринар (необязательно)</string>
+    <string name="record_notes">Заметки (необязательно)</string>
+
+    <string name="map_screen_title">Карта ветеринаров</string>
+    <string name="map_add_note_dialog_title">Добавить заметку</string>
+    <string name="map_note_title">Название (напр., "Хорошая ветклиника")</string>
+    <string name="map_note_description">Описание (необязательно)</string>
+    <string name="map_location_permission_denied">Разрешение на местоположение отклонено. Предоставьте его в настройках, чтобы увидеть свое местоположение на карте.</string>
+    <string name="map_location_loading">Определение вашего местоположения…</string>
+    <string name="map_note_details_title">Заметка:</string>
+    <string name="map_delete_note_button">Удалить заметку</string>
+
+    <string name="documents_screen_title">Документы</string>
+    <string name="document_name">Название документа</string>
+    <string name="no_documents">Документы пока не добавлены.</string>
+    <string name="dialog_delete_document_title">Удалить документ?</string>
+    <string name="dialog_delete_document_text">Вы уверены, что хотите удалить этот документ?</string>
+
+    <string name="title_article_detail">Статья</string>
+    <string name="content_articles">Статьи</string>
+    <string name="error_content_not_found_articles">Содержимое статьи не найдено.</string>
+
+    <string name="animal_type_cats">Кошки</string>
+    <string name="animal_type_dogs">Собаки</string>
+    <string name="animal_type_fish">Рыбки</string>
+    <string name="animal_type_birds">Птицы</string>
+    <string name="animal_type_small_mammals">Мелкие млекопитающие</string>
+    <string name="animal_type_reptiles_amphibians">Рептилии и амфибии</string>
+
+    <string name="about_title">О приложении</string>
+    <string name="about_icon_description">Иконка приложения</string>
+    <string name="about_version">Версия 1.0.0</string>
+    <string name="about_description">Ваш личный помощник\nв заботе о питомце</string>
+    <string name="about_privacy_policy">Политика конфиденциальности</string>
+    <string name="todo_open_link">TODO: Открыть ссылку</string>
+
+    <string name="expense_select_category">Выбрать категорию</string>
+    <string name="expense_total">Общий расход</string>
+    <string name="expense_amount">Сумма</string>
+    <string name="expense_category">Категория</string>
+    <string name="expense_new_category_title">Новая категория</string>
+    <string name="expense_category_name_label">Название</string>
+    <string name="expense_default_food">Еда</string>
+    <string name="expense_default_toys">Игрушки</string>
+    <string name="expense_default_health">Здоровье</string>
+    <string name="expense_default_care">Уход</string>
+    <string name="expense_default_other">Прочее</string>
+    <string name="expense_add_new_category">+ Новая категория</string>
+    <string name="expense_hint_enter_category">Введите категорию</string>
+    <string name="expense_enter_amount_title">Введите сумму</string>
+    <string name="expense_amount_label">Сумма</string>
+    <string name="expense_add_title">Добавить расход</string>
+    <string name="expense_edit_title">Редактировать расход</string>
+    <string name="expense_label_expense">Расход</string>
+    <string name="expense_label_date">Дата</string>
+    <string name="expense_date_not_selected">Не выбрана</string>
+    <string name="expense_description_optional">Описание (необязательно)</string>
+    <string name="validation_enter_valid_amount">Пожалуйста, введите корректную сумму</string>
+    <string name="validation_select_category">Пожалуйста, выберите или введите категорию</string>
+
+    <string name="task_add_title">Новое дело</string>
+    <string name="task_edit_title">Редактировать дело</string>
+    <string name="task_share">Поделиться</string>
+    <string name="task_pet_selection_title">Для какого питомца?</string>
+    <string name="task_category_selection_title">Выберите категорию</string>
+    <string name="task_category_cancel">Отмена</string>
+    <string name="task_label_pet">Питомец</string>
+    <string name="task_pet_select_pet">Выберите питомца</string>
+    <string name="task_label_category">Категория</string>
+    <string name="task_label_description">Описание дела</string>
+    <string name="task_label_date">Дата</string>
+    <string name="task_label_remind_me">Напомнить</string>
+    <string name="task_label_time">Время</string>
+    <string name="task_default_time">09:00</string>
+
+    <string name="share_task_pet">Дело для: %s</string>
+    <string name="share_task_title">Задача: %s</string>
+    <string name="share_task_date">Дата: %s</string>
+    <string name="share_task_chooser">Поделиться делом</string>
+    <string name="notification_pet_name_default">Ваш питомец</string>
+    <string name="notification_task_no_description">(Без описания)</string>
+
+    <string name="validation_select_task_date">Пожалуйста, укажите дату дела</string>
+    <string name="validation_select_date_first">Сначала выберите дату дела</string>
+
+    <string name="record_add_title">Новая запись</string>
+    <string name="record_edit_title">Редактирование</string>
+    <string name="record_label_date">Дата</string>
+    <string name="record_label_symptoms_required">Симптомы / Причина (обязательно)</string>
+    <string name="record_label_place_clinic">Место (клиника, дом)</string>
+    <string name="record_label_specialist">Специалист (имя врача)</string>
+    <string name="record_label_diagnosis_treatment">Диагноз / Назначение</string>
+    <string name="record_label_comment">Комментарий</string>
+    <string name="record_save_button">Сохранить запись</string>
+    <string name="validation_enter_symptoms">Пожалуйста, укажите симптомы или причину</string>
+
+    <string name="pet_edit_title">Редактировать</string>
+    <string name="pet_save_button">Сохранить</string>
+    <string name="pet_photo_description">Фото питомца</string>
+    <string name="pet_add_photo">Добавить фото</string>
+    <string name="pet_label_name">Имя питомца</string>
+    <string name="pet_label_type">Тип животного</string>
+    <string name="pet_label_gender">Пол</string>
+    <string name="pet_label_breed">Порода</string>
+    <string name="pet_label_color">Окрас</string>
+    <string name="pet_label_birth_date">Дата рождения</string>
+    <string name="pet_label_family_date">В семье с</string>
+    <string name="pet_label_castrated">Кастрирован / Стерилизована</string>
+    <string name="pet_label_microchip">Микрочип</string>
+    <string name="pet_label_show_training">Показывать дневник тренировок</string>
+    <string name="pet_label_note">Примечание</string>
+    <string name="pet_color_not_specified">Не указан</string>
+
+    <string name="dialog_select_type_title">Выберите тип животного</string>
+    <string name="dialog_select_gender_title">Выберите пол</string>
+    <string name="dialog_select_color_title">Выберите или введите окрас</string>
+    <string name="dialog_new_color_label">Новый окрас</string>
+    <string name="dialog_image_source_title">Выберите источник фото</string>
+    <string name="dialog_source_camera">Сделать фото с камеры</string>
+    <string name="dialog_source_gallery">Выбрать из галереи</string>
+    <string name="dialog_status_title">Укажите статус</string>
+    <string name="dialog_yes">Да</string>
+    <string name="dialog_no">Нет</string>
+
+    <string name="color_black">Черный</string>
+    <string name="color_white">Белый</string>
+    <string name="color_gray">Серый</string>
+    <string name="color_ginger">Рыжий</string>
+    <string name="color_spotted">Пятнистый</string>
+    <string name="color_tricolor">Трехцветный</string>
+
+    <string name="validation_pet_name_empty">Имя питомца не может быть пустым</string>
+    <string name="permission_gallery_denied">Разрешение на доступ к галерее отклонено</string>
+    <string name="permission_camera_denied">Разрешение на использование камеры отклонено</string>
+
+    <string name="training_add_title">Новая тренировка</string>
+    <string name="training_edit_title">Редактировать</string>
+    <string name="training_dialog_select_status">Выберите статус</string>
+    <string name="training_label_command">Команда (например, \'Сидеть\')</string>
+    <string name="training_label_status">Статус</string>
+    <string name="training_label_start_date">Дата начала</string>
+    <string name="training_label_notes">Комментарии</string>
+    <string name="validation_enter_command_name">Пожалуйста, введите название команды</string>
+
+    <string name="tasks_all_title">Все дела</string>
+    <string name="tasks_empty_list">У вас пока нет запланированных дел.</string>
+    <string name="tasks_general_task">Общее дело</string>
+    <string name="tasks_dialog_confirmation">Подтверждение</string>
+    <string name="tasks_dialog_delete_text">Вы уверены, что хотите удалить дело \'%s\'?</string>
+    <string name="tasks_dialog_delete">Удалить</string>
+    <string name="tasks_dialog_cancel">Отмена</string>
+    <string name="tasks_pet_label">Питомец: %s</string>
+    <string name="tasks_no_description">(Без описания)</string>
+
+    <string name="auth_register_title">Регистрация</string>
+    <string name="auth_login_title">Вход</string>
+    <string name="auth_email_label">Email</string>
+    <string name="auth_password_label">Пароль</string>
+    <string name="auth_hide_password">Скрыть пароль</string>
+    <string name="auth_show_password">Показать пароль</string>
+    <string name="auth_register_button">Зарегистрироваться</string>
+    <string name="auth_login_button">Войти</string>
+    <string name="auth_switch_to_login">Уже есть аккаунт? Войти</string>
+    <string name="auth_switch_to_register">Нет аккаунта? Зарегистрироваться</string>
+    <string name="auth_sign_in_google">Войти с Google</string>
+    <string name="auth_snackbar_action_ok">ОК</string>
+
+    <string name="error_google_sign_in_failed">Ошибка входа с Google: код %1$d, сообщение: %2$s, причина: %3$s</string>
+    <string name="error_google_sign_in_unknown">Неизвестная ошибка входа с Google: %1$s</string>
+    <string name="error_google_sign_in_cancelled">Вход с Google отменен или не удался. Result Code: %1$d</string>
+
+    <string name="calculator_title_main">Калькуляторы</string>
+    <string name="calculator_title_food_adult">Норма корма: Взрослые</string>
+    <string name="calculator_title_food_puppy">Норма корма: Щенки/Котята</string>
+    <string name="calculator_title_food_active">Норма корма: Активные</string>
+    <string name="calculator_title_age_cat">Возраст: Кошки</string>
+    <string name="calculator_title_age_dog_small">Возраст: Мелкие собаки</string>
+    <string name="calculator_title_age_dog_large">Возраст: Крупные собаки</string>
+    <string name="calculator_title_water">Норма воды</string>
+    <string name="calculator_title_supply">Запас корма</string>
+    <string name="calculator_title_gestation">Календарь беременности</string>
+
+    <string name="menu_food_adult_title">Норма корма: взрослые, стерилизованные</string>
+    <string name="menu_food_adult_desc">Расчет для взрослых кошек/собак</string>
+    <string name="menu_food_puppy_title">Норма корма: щенки/котята</string>
+    <string name="menu_food_puppy_desc">Расчет для растущих питомцев</string>
+    <string name="menu_food_active_title">Норма корма: активные/нестерилизованные</string>
+    <string name="menu_food_active_desc">Расчет для питомцев с повышенной активностью</string>
+
+    <string name="menu_age_cat_title">Возраст: Кошки</string>
+    <string name="menu_age_cat_desc">Возраст кошки в \'человеческих\' годах (примерно)</string>
+    <string name="menu_age_dog_small_title">Возраст: Мелкие собаки</string>
+    <string name="menu_age_dog_small_desc">Возраст мелких пород собак в \'человеческих\' годах (примерно)</string>
+    <string name="menu_age_dog_large_title">Возраст: Крупные собаки</string>
+    <string name="menu_age_dog_large_desc">Возраст крупных пород собак в \'человеческих\' годах (примерно)</string>
+
+    <string name="menu_water_title">Суточная норма воды</string>
+    <string name="menu_water_desc">Узнайте, сколько воды должен выпивать питомец</string>
+    <string name="menu_supply_title">На сколько хватит корма?</string>
+    <string name="menu_supply_desc">Рассчитайте, когда нужно покупать новую упаковку</string>
+    <string name="menu_gestation_title">Календарь беременности</string>
+    <string name="menu_gestation_desc">Рассчитайте предполагаемую дату родов (кошки/собаки)</string>
+
+    <string name="calc_label_weight">Вес питомца (кг)</string>
+    <string name="calc_label_calories">Калорийность корма (ккал на 100г)</string>
+    <string name="calc_label_pack_weight">Вес упаковки корма (кг)</string>
+    <string name="calc_label_daily_portion">Суточная норма (г)</string>
+    <string name="calc_button_calculate">Рассчитать</string>
+    <string name="calc_result_daily_portion">Суточная норма: %d г</string>
+    <string name="calc_result_error">Введите корректные данные</string>
+
+    <string name="calc_desc_adult_food">Для взрослых, стерилизованных кошек и собак. Это примерный расчет, проконсультируйтесь с ветеринаром.</string>
+    <string name="calc_desc_puppy_food">Для щенков и котят. Расчет сильно зависит от возраста, породы и темпов роста. Обязательно проконсультируйтесь с ветеринаром.</string>
+    <string name="calc_desc_active_food">Для активных, нестерилизованных или рабочих животных. Расчет примерный.</string>
+    <string name="calc_desc_age_cat">Расчет \'человеческого\' возраста для кошек. Это очень приблизительная оценка.</string>
+    <string name="calc_desc_age_dog_small">Расчет \'человеческого\' возраста для мелких пород собак (до 10 кг). Это очень приблизительная оценка.</string>
+    <string name="calc_desc_age_dog_large">Расчет \'человеческого\' возраста для крупных пород собак (от 25 кг). Это очень приблизительная оценка.</string>
+    <string name="calc_desc_water">Примерная суточная норма воды для большинства здоровых кошек и собак. Не является заменой консультации ветеринара.</string>
+    <string name="calc_desc_gestation">Средняя продолжительность беременности для кошек и собак составляет 63 дня. Дата может незначительно варьироваться.</string>
+
+    <string name="calc_result_human_age">Возраст вашего питомца\nпримерно равен\n%d\nчеловеческим годам</string>
+    <string name="calc_result_water_intake">Суточная норма: ~%d мл</string>
+    <string name="calc_result_food_supply">Этой упаковки хватит примерно на %d дней</string>
+    <string name="calc_result_gestation_date">Предполагаемая дата родов:\n%s</string>
+    <string name="calc_dialog_select_pet">Выберите питомца</string>
+    <string name="calc_label_pet_name">Питомец</string>
+    <string name="calc_label_mating_date">Дата вязки</string>
+
+    <string name="contacts_title">Контакты</string>
+    <string name="contacts_call">Позвонить</string>
+    <string name="contacts_whatsapp">Написать в WhatsApp</string>
+    <string name="contacts_delete">Удалить</string>
+    <string name="contacts_empty_list">Контактов пока нет.\nНажмите \'+\' чтобы добавить.</string>
+    <string name="contacts_header_unknown">Неизвестный контакт</string>
+
+    <string name="dialog_contact_new_title">Новый контакт</string>
+    <string name="dialog_contact_import_button">Импортировать из телефона</string>
+    <string name="dialog_contact_label_name_required">Имя (обязательно)</string>
+    <string name="dialog_contact_label_phone_required">Телефон (обязательно)</string>
+    <string name="dialog_contact_label_type_hint">Тип (Ветеринар, Грумер...)</string>
+    <string name="dialog_contact_label_notes_hint">Заметки (адрес, часы)</string>
+    <string name="dialog_contact_save">Сохранить</string>
+
+    <string name="dialog_delete_contact_title">Удалить контакт?</string>
+    <string name="dialog_delete_contact_text">Вы уверены, что хотите удалить контакт \'%s\'? Это действие нельзя будет отменить.</string>
+
+    <string name="toast_whatsapp_not_installed">WhatsApp не установлен или номер некорректен</string>
+    <string name="toast_contact_required_fields">Имя, телефон и тип обязательны</string>
+    <string name="toast_permission_contacts_denied">Разрешение на чтение контактов отклонено</string>
+    <string name="toast_contact_name_default">Неизвестный контакт</string>
+
+    <string name="contacts_add">Добавить контакт</string>
+
+    <string name="documents_title">Мои документы</string>
+    <string name="documents_add_fab">Загрузить документ</string>
+    <string name="documents_common_name">Общий документ</string>
+    <string name="documents_common_header">Общие документы</string>
+    <string name="documents_date_added">%1$s • %2$s</string>
+    <string name="documents_empty_list">Документов пока нет.\nНажмите \'+\' чтобы загрузить первый.</string>
+    <string name="documents_delete_content_desc">Удалить</string>
+
+    <string name="dialog_document_new_title">Новый документ</string>
+    <string name="dialog_document_label_name">Название документа</string>
+    <string name="dialog_document_label_pet_bind">Привязать к</string>
+    <string name="dialog_document_button_select_file">Выбрать файл</string>
+    <string name="dialog_document_button_file_selected">Файл выбран</string>
+    <string name="dialog_document_save">Сохранить</string>
+
+    <string name="dialog_document_confirmation">Подтверждение</string>
+    <string name="dialog_document_delete_text">Вы уверены, что хотите удалить документ \'%s\'?</string>
+    <string name="dialog_document_delete_button">Удалить</string>
+
+    <string name="toast_document_required_fields">Заполните имя и выберите файл</string>
+    <string name="toast_document_save_failed">Не удалось сохранить файл</string>
+    <string name="toast_file_deleted">Файл удален</string>
+    <string name="toast_file_delete_failed">Не удалось удалить файл</string>
+    <string name="toast_file_open_failed">Не удалось открыть файл: %s</string>
+    <string name="toast_file_not_found">Файл не найден по пути: %s</string>
+
+    <string name="checklist_new_title_default">Новый чек-лист</string>
+    <string name="checklist_edit_title">Редактирование</string>
+    <string name="checklist_delete_icon_desc">Удалить чек-лист</string>
+    <string name="checklist_save_icon_desc">Сохранить</string>
+    <string name="checklist_label_name">Название чек-листа</string>
+    <string name="checklist_label_item_prefix">Пункт</string>
+    <string name="checklist_item_delete_desc">Удалить пункт</string>
+    <string name="checklist_button_add_item">Добавить пункт</string>
+
+    <string name="dialog_checklist_delete_title">Удалить чек-лист?</string>
+    <string name="dialog_checklist_delete_text">Вы уверены, что хотите удалить \'%s\'? Это действие необратимо.</string>
+    <string name="dialog_checklist_delete_button">Удалить</string>
+
+    <string name="toast_checklist_name_empty">Название не может быть пустым</string>
+
+    <string name="pet_list_title">Мои питомцы</string>
+    <string name="pet_list_menu_icon_desc">Меню</string>
+    <string name="pet_list_notifications_icon_desc">Напоминания</string>
+    <string name="pet_list_empty_message">У вас пока нет питомцев.\nНажмите \'+\' внизу, чтобы добавить первого!</string>
+    <string name="reminder_dialog_title">Предстоящие напоминания</string>
+    <string name="reminder_dialog_empty">У вас нет предстоящих напоминаний.</string>
+    <string name="reminder_dialog_general_task">Общее</string>
+    <string name="reminder_dialog_button_ok">ОК</string>
+    <string name="dialog_confirmation_title">Подтверждение</string>
+    <string name="dialog_delete_pet_button">Удалить</string>
+
+    <string name="pet_card_photo_desc">Фото питомца</string>
+    <string name="reminder_item_pet_category_format">%1$s • %2$s</string>
+
+    <string name="html_title_terms">Пользовательское соглашение</string>
+    <string name="html_title_privacy">Политика конфиденциальности</string>
+    <string name="html_title_description">Описание приложения</string>
+
+    <string name="nav_pets">Питомцы</string>
+    <string name="nav_tasks">Дела</string>
+    <string name="nav_add">Добавить</string>
+    <string name="nav_finance">Финансы</string>
+    <string name="nav_map">Карта</string>
+    <string name="nav_reminders">Напоминания</string>
+    <string name="nav_pet_limit_message">У вас пока нет питомцев.\nНажмите \'+\' внизу, чтобы добавить первого!</string>
+
+    <string name="drawer_status_premium">Статус: Премиум</string>
+    <string name="drawer_status_free">Статус: Бесплатно</string>
+    <string name="drawer_manage_subscription">Управление подпиской</string>
+    <string name="drawer_calculators">Калькуляторы</string>
+    <string name="drawer_useful">Полезное</string>
+    <string name="drawer_checklists">Чек-листы</string>
+    <string name="drawer_documents">Мои документы</string>
+    <string name="drawer_contacts">Контакты</string>
+    <string name="drawer_settings">Настройки</string>
+    <string name="drawer_section_documents">Документы</string>
+    <string name="drawer_terms_of_use">Пользовательское соглашение</string>
+    <string name="drawer_privacy_policy">Политика конфиденциальности</string>
+    <string name="drawer_about_app">О приложении</string>
+    <string name="drawer_logout">Выйти</string>
+    <string name="drawer_logout_desc">Выйти</string>
+    <string name="drawer_app_logo_desc">Логотип приложения</string>
+
+    <string name="welcome_message">Добро пожаловать в PetMemo!</string>
+
+    <string name="map_title">Карта</string>
+    <string name="map_permission_granted">Разрешения на местоположение получены.</string>
+    <string name="map_permission_denied">Разрешения на местоположение ОТКЛОНЕНЫ.</string>
+    <string name="map_permission_needed_snackbar">Для отображения вашего местоположения необходимы разрешения.</string>
+    <string name="map_permission_already_granted">Разрешение на FINE_LOCATION уже есть.</string>
+    <string name="map_permission_requesting">Разрешение на FINE_LOCATION отсутствует, запрашиваем.</string>
+    <string name="map_location_updates_started">Запрос на обновление местоположения запущен.</string>
+    <string name="map_location_updates_stopped">Остановлены обновления местоположения.</string>
+    <string name="map_location_update_security_error">Ошибка безопасности при запросе местоположения: %s</string>
+    <string name="map_location_getting">Определение вашего местоположения...</string>
+
+    <string name="marker_title_you_are_here">Вы здесь</string>
+    <string name="marker_snippet_current_location">Ваше текущее местоположение</string>
+
+    <string name="note_details_title_default">Название заметки</string>
+    <string name="note_button_delete">Удалить</string>
+    <string name="note_button_close">Закрыть</string>
+    <string name="note_deleted_snackbar">Заметка \'%s\' удалена.</string>
+
+    <string name="dialog_note_add_title">Добавить заметку</string>
+    <string name="dialog_note_label_title">Заголовок</string>
+    <string name="dialog_note_label_description">Описание (необязательно)</string>
+    <string name="dialog_note_add_button">Добавить</string>
+    <string name="dialog_note_added_snackbar">Заметка добавлена!</string>
+    <string name="dialog_note_title_empty_snackbar">Заголовок не может быть пустым.</string>
+
+    <string name="record_detail_loading">Загрузка...</string>
+    <string name="record_detail_symptoms">Симптомы: %s</string>
+    <string name="record_detail_date">Дата: %s</string>
+    <string name="record_detail_place">Место: %s</string>
+    <string name="record_detail_specialist">Специалист: %s</string>
+    <string name="record_detail_diagnosis">Диагноз/Назначение: %s</string>
+    <string name="record_detail_treatment">Лечение: %s</string>
+    <string name="record_detail_note">Примечание: %s</string>
+    <string name="record_detail_section_notes">Наблюдения / Комментарии</string>
+    <string name="record_detail_add_note_label">Добавить новое наблюдение...</string>
+    <string name="record_detail_add_note_button">Добавить наблюдение</string>
+
+    <string name="note_edit_desc">Редактировать</string>
+    <string name="note_delete_desc">Удалить</string>
+    <string name="dialog_note_edit_title">Редактировать наблюдение</string>
+    <string name="dialog_note_delete_title">Удалить комментарий?</string>
+    <string name="dialog_note_delete_text">Вы уверены, что хотите удалить этот комментарий?</string>
+
+    <string name="settings_title">Настройки</string>
+    <string name="settings_label_theme">Тема</string>
+    <string name="settings_label_currency">Валюта</string>
+
+    <string name="dialog_select_currency">Выберите валюту</string>
+    <string name="dialog_select_theme">Выберите тему</string>
+
+    <string name="theme_default">По умолчанию</string>
+    <string name="theme_dark">Темная</string>
+
+
+    <string name="info_section_main">Основная информация</string>
+    <string name="info_label_type">Тип</string>
+    <string name="info_label_gender">Пол</string>
+    <string name="info_label_breed">Порода</string>
+    <string name="info_label_color">Окрас</string>
+    <string name="info_label_not_specified">Не указан</string>
+    <string name="info_label_not_specified_f">Не указана</string>
+    <string name="info_section_dates">Даты</string>
+    <string name="info_label_birth_date">Дата рождения</string>
+    <string name="info_label_family_date">В семье с</string>
+    <string name="info_section_medical">Мед карта</string>
+    <string name="info_label_castrated">Кастрация/Стерилизация</string>
+    <string name="info_label_microchip">Микрочип</string>
+    <string name="info_label_yes">Да</string>
+    <string name="info_label_no">Нет</string>
+    <string name="info_section_note">Примечание</string>
+    <string name="info_label_not_available">Н/Д</string>
+
+    <string name="training_diary_empty">Записей о тренировках пока нет.\nНажмите \'+\' чтобы добавить первую.</string>
+    <string name="training_create_task_desc">Создать дело</string>
+    <string name="training_task_title_format">Тренировка: %s</string>
+
+    <string name="health_tracker_mood">Трекер настроения</string>
+    <string name="health_tracker_mood_today">Как настроение питомца сегодня?</string>
+    <string name="health_tracker_weight">Динамика веса</string>
+    <string name="health_tracker_weight_label">Вес, кг</string>
+    <string name="health_tracker_weight_button">Добавить</string>
+    <string name="health_record_section">Медицинская карта</string>
+    <string name="health_record_empty">Записей в медкарте пока нет.</string>
+    <string name="health_chart_min_entries">Нужно как минимум 2 записи для построения графика</string>
+    <string name="health_dialog_edit_weight_title">Редактировать вес</string>
+    <string name="health_dialog_edit_mood_title">Изменить настроение</string>
+    <string name="health_dialog_edit_mood_question">Какое настроение было у питомца %s?</string>
+    <string name="health_dialog_delete_title">Удалить запись?</string>
+    <string name="health_dialog_delete_confirm_text">Вы уверены?</string>
+    <string name="health_dialog_delete_button">Удалить</string>
+    <string name="health_add_record_fab">Добавить запись</string>
+    <string name="health_add_training_fab">Добавить тренировку</string>
+    <string name="health_mood_collapse_desc">Свернуть/развернуть</string>
+    <string name="health_record_task_title_format">Мед. задача: %s</string>
+
+    <string name="record_card_diagnosis_format">Диагноз: %s</string>
+    <string name="record_card_share_desc">Поделиться</string>
+    <string name="share_medical_record_title">Медицинская запись о питомце:</string>
+    <string name="share_medical_record_date">Дата: %s</string>
+    <string name="share_medical_record_symptoms">Симптомы: %s</string>
+    <string name="share_medical_record_diagnosis">Диагноз: %s</string>
+    <string name="share_medical_record_treatment">Лечение: %s</string>
+    <string name="share_medical_record_vet">Ветеринар: %s</string>
+    <string name="share_medical_record_clinic">Клиника: %s</string>
+    <string name="share_medical_record_notes">Примечания: %s</string>
+    <string name="share_chooser_record">Поделиться медицинской записью</string>
+
+    <string name="tab_info">Информация</string>
+    <string name="tab_health">Здоровье</string>
+    <string name="tab_training">Дрессировка</string>
+    <string name="pet_detail_loading">Загрузка...</string>
+    <string name="pet_detail_edit_icon_desc">Редактировать</string>
+    <string name="pet_detail_add_record_desc">Добавить запись</string>
+    <string name="pet_detail_add_training_desc">Добавить тренировку</string>
+
+    <string name="item_edit_desc">Редактировать</string>
+    <string name="item_delete_desc">Удалить</string>
+    <string name="item_weight_desc">Вес</string>
+
+    <string name="dialog_delete_training_text">Вы уверены, что хотите удалить эту запись о тренировке?</string>
+    <string name="dialog_delete_button">Удалить</string>
+    <string name="task_empty_list">Дел пока нет.\nНажмите \'+\' чтобы добавить.</string>
+
+    <string name="checklists_title">Чек-листы</string>
+    <string name="checklists_my_lists">Мои чек-листы</string>
+    <string name="checklists_copy_desc">Копировать в \'Мои чек-листы\'</string>
+    <string name="checklists_template_copied_toast">\'%s\' скопировано!</string>
+    <string name="checklists_expand_desc">Свернуть/развернуть</string>
+    <string name="checklists_add_new">Создать новый чек-лист</string>
+    <string name="checklists_loading">Загрузка...</string>
+    <string name="checklists_edit">Редактировать</string>
+    <string name="checklists_empty_message">Чек-листов пока нет.\nНажмите \'+\' чтобы добавить.</string>
+
+
+        <string name="delete_button">Удалить</string>
+        <string name="save_button">Сохранить</string>
+        <string name="edit_button">Редактировать</string>
+
+        <string name="data_not_available">Нет данных</string>
+
+        <string name="expense_reports_title">Отчёты по финансам</string>
+        <string name="expense_structure">Структура расходов</string>
+        <string name="expense_icon_desc">Иконка расхода</string>
+        <string name="expense_general">Общие</string>
+        <string name="expense_all">Все расходы</string>
+        <string name="expense_unknown_pet">Неизвестный питомец</string>
+        <string name="expense_delete_confirm">Подтверждение удаления</string>
+        <string name="expense_delete_text">Вы уверены, что хотите удалить расход?</string>
+        <string name="date_range_start">Начало</string>
+        <string name="date_range_end">Конец</string>
+
+        <string name="date_filter_today">Сегодня</string>
+        <string name="date_filter_this_month">Этот месяц</string>
+        <string name="date_filter_last_month">Прошлый месяц</string>
+        <string name="date_filter_this_year">Этот год</string>
+        <string name="date_filter_all_time">За всё время</string>
+        <string name="date_filter_custom">Произвольный</string>
+        <string name="expense_filter_all_cats">Все категории</string>
+        <string name="expense_filter_date_range">Выберите диапазон дат</string>
+
+    <string name="cancel_button">Отмена</string>
+
+    <string name="benefit_unlimited_pets">Неограниченное количество питомцев</string>
+    <string name="benefit_map_access">Доступ к интерактивной карте</string>
+    <string name="benefit_no_ads">Полное отсутствие рекламы</string>
+    <string name="benefit_priority_support">Приоритетная поддержка</string>
+
+    <string name="option_monthly_title">Месячная подписка</string>
+    <string name="option_monthly_price">$3 / месяц</string>
+    <string name="option_monthly_desc">Идеально, чтобы попробовать</string>
+    <string name="option_annual_title">Годовая подписка</string>
+    <string name="option_annual_price">$30 / год</string>
+    <string name="option_annual_desc">Сэкономьте $6 в год!</string>
+    <string name="error_loading_products">Ошибка загрузки товаров. Повторите попытку позже.</string>
+
+    <string name="subscription_title">Подписка PetMemo Premium</string>
+    <string name="subscription_activated">Подписка активирована!</string>
+    <string name="subscription_already_premium">У вас уже есть PetMemo Premium!</string>
+    <string name="subscription_get_premium">Получите максимум от PetMemo с Premium!</string>
+    <string name="subscription_benefits_header">Наслаждайтесь всеми функциями:</string>
+    <string name="subscription_restore_purchases">Восстановить покупки</string>
+    <string name="subscription_reset_fake">Сбросить подписку (Fake)</string>
+    <string name="subscription_terms">Ваша подписка будет автоматически продлена, если не будет отменена не менее чем за 24 часа до окончания текущего периода. Управляйте подписками в настройках вашего аккаунта Google/RuStore.</string>
+    <string name="pet_diary_title">Дневник вашего любимца</string>
+
+    <string name="mood_happy">Радостное</string>
+    <string name="mood_playful">Игривое</string>
+    <string name="mood_calm">Спокойное</string>
+    <string name="mood_anxious">Тревожное</string>
+    <string name="mood_sad">Грустное</string>
+    <string name="health_label_weight_kg">Вес, кг</string>
+
+    <string name="pet_type_dog">Собака</string>
+    <string name="pet_type_cat">Кошка</string>
+    <string name="pet_type_bird">Птица</string>
+    <string name="pet_type_fish">Рыбка</string>
+    <string name="pet_type_rodent">Грызун</string>
+    <string name="pet_type_reptile">Рептилия</string>
+    <string name="pet_type_other">Другое</string>
+    <string name="pet_type_unknown">Неизвестно</string>
+
+    <string name="gender_male">Самец</string>
+    <string name="gender_female">Самка</string>
+    <string name="gender_unknown">Неизвестно</string>
+
+    <string name="task_category_vet_visit">Визит к врачу</string>
+    <string name="task_category_vaccination">Прививка</string>
+    <string name="task_category_grooming">Груминг</string>
+    <string name="task_category_medication">Прием лекарств</string>
+    <string name="task_category_training">Дрессировка</string>
+    <string name="task_category_shopping">Покупки</string>
+    <string name="task_category_custom">Другое</string>
+    <string name="subscription_enter_promo_code">Ввести промокод</string>
+
+    <string name="expense_category_input_hint">Другой текст</string>
+
+
+        <string name="reset_password_title">Сброс пароля</string>
+        <string name="email_label">Электронная почта</string>
+        <string name="reset_password_button">Сбросить пароль</string>
+        <string name="password_reset_email_sent">Инструкции по сбросу пароля отправлены на вашу почту.</string>
+        <string name="password_reset_error">Ошибка сброса пароля: %s</string>
+        <string name="email_empty_warning">Пожалуйста, введите адрес электронной почты.</string>
+        <string name="forgot_password_button">Забыли пароль?</string>
+
+</resources>

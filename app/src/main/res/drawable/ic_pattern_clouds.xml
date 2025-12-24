@@ -1,0 +1,61 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeAlpha="0.4"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="
+            M 10,20 a 10,10 0 1,1 0,0.1 a 8,8 0 1,0 0,-0.1 a 6,6 0 1,1 0,0.1
+            M 70,10 a 10,10 0 1,1 0,0.1 a 8,8 0 1,0 0,-0.1 a 6,6 0 1,1 0,0.1
+            M 30,80 a 10,10 0 1,1 0,0.1 a 8,8 0 1,0 0,-0.1 a 6,6 0 1,1 0,0.1
+            M 90,60 a 10,10 0 1,1 0,0.1 a 8,8 0 1,0 0,-0.1 a 6,6 0 1,1 0,0.1
+            " />
+
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeAlpha="0.6"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="
+            M 40,40 a 8,8 0 1,1 0,0.1 a 6,6 0 1,0 0,-0.1 a 4,4 0 1,1 0,0.1
+            M 100,25 a 8,8 0 1,1 0,0.1 a 6,6 0 1,0 0,-0.1 a 4,4 0 1,1 0,0.1
+            M 5,70 a 8,8 0 1,1 0,0.1 a 6,6 0 1,0 0,-0.1 a 4,4 0 1,1 0,0.1
+            M 60,100 a 8,8 0 1,1 0,0.1 a 6,6 0 1,0 0,-0.1 a 4,4 0 1,1 0,0.1
+            " />
+
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeAlpha="0.8"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round"
+        android:pathData="
+            M 20,60 a 6,6 0 1,1 0,0.1 a 4,4 0 1,0 0,-0.1 a 2,2 0 1,1 0,0.1
+            M 80,80 a 6,6 0 1,1 0,0.1 a 4,4 0 1,0 0,-0.1 a 2,2 0 1,1 0,0.1
+            M 50,20 a 6,6 0 1,1 0,0.1 a 4,4 0 1,0 0,-0.1 a 2,2 0 1,1 0,0.1
+            M 10,100 a 6,6 0 1,1 0,0.1 a 4,4 0 1,0 0,-0.1 a 2,2 0 1,1 0,0.1
+            M 110,40 a 6,6 0 1,1 0,0.1 a 4,4 0 1,0 0,-0.1 a 2,2 0 1,1 0,0.1
+            M 0,30 a 6,6 0 1,1 0,0.1 a 4,4 0 1,0 0,-0.1 a 2,2 0 1,1 0,0.1
+            " />
+
+    <path
+        android:strokeColor="#8B4513"
+        android:strokeAlpha="0.7"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="
+            M 5,5 a 4,4 0 1,1 0,0.1 a 2,2 0 1,0 0,-0.1
+            M 90,0 a 4,4 0 1,1 0,0.1 a 2,2 0 1,0 0,-0.1
+            M 115,100 a 4,4 0 1,1 0,0.1 a 2,2 0 1,0 0,-0.1
+            M 0,110 a 4,4 0 1,1 0,0.1 a 2,2 0 1,0 0,-0.1
+            M 70,50 a 4,4 0 1,1 0,0.1 a 2,2 0 1,0 0,-0.1
+            M 45,70 a 4,4 0 1,1 0,0.1 a 2,2 0 1,0 0,-0.1
+            M 25,35 a 4,4 0 1,1 0,0.1 a 2,2 0 1,0 0,-0.1
+            M 110,15 a 4,4 0 1,1 0,0.1 a 2,2 0 1,0 0,-0.1
+            " />
+
+</vector>

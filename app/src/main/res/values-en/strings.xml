@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PetMemo</string>
+
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="back">Back</string>
+    <string name="confirm">Confirm</string>
+    <string name="loading">Loading…</string>
+    <string name="error">Error</string>
+    <string name="please_fill_all_fields">Please fill in all required fields.</string>
+    <string name="date">Date</string>
+    <string name="title_article">Article</string>
+    <string name="title_main_menu">Useful</string>
+    <string name="button_back">Back</string>
+    <string name="error_content_not_found">Content not found.</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="login_button">Log In</string>
+    <string name="register_button">Sign Up</string>
+    <string name="switch_to_register">Don\'t have an account? Sign up</string>
+    <string name="switch_to_login">Already have an account? Log in</string>
+    <string name="auth_error_passwords_do_not_match">Passwords do not match.</string>
+    <string name="auth_error_password_too_short">Password must be at least 6 characters long.</string>
+    <string name="auth_error_weak_password">Password is too weak.</string>
+    <string name="auth_error_invalid_email">Invalid email format.</string>
+    <string name="auth_error_user_collision">A user with this email already exists.</string>
+    <string name="auth_error_invalid_credentials">Incorrect email or password.</string>
+    <string name="auth_error_generic">Authentication error: %s</string>
+
+
+    <string name="drawer_home">Home</string>
+    <string name="drawer_reports">Reports</string>
+    <string name="drawer_useful_info">Useful Info</string>
+    <string name="drawer_about">About</string>
+    <string name="drawer_get_premium">Get Premium</string>
+
+
+    <string name="bottom_nav_home">Home</string>
+    <string name="bottom_nav_calendar">Calendar</string>
+    <string name="bottom_nav_tasks">Tasks</string>
+    <string name="bottom_nav_map">Map</string>
+
+    <string name="add_pet_title">Add a New Pet</string>
+    <string name="edit_pet_title">Edit Pet</string>
+    <string name="pet_name">Name</string>
+    <string name="pet_type">Type (e.g., Cat, Dog)</string>
+    <string name="pet_breed">Breed</string>
+    <string name="pet_gender">Gender</string>
+    <string name="pet_gender_male">Male</string>
+    <string name="pet_gender_female">Female</string>
+    <string name="pet_birth_date">Date of Birth</string>
+    <string name="pet_photo">Pet Photo</string>
+    <string name="pet_add_success">Pet added successfully!</string>
+    <string name="pet_update_success">Pet updated successfully!</string>
+    <string name="dialog_delete_pet_title">Delete Pet?</string>
+    <string name="dialog_delete_pet_text">Are you sure you want to delete this pet and all related data? This action cannot be undone.</string>
+
+    <string name="tab_health_diary">Health Diary</string>
+    <string name="tab_events">Events</string>
+    <string name="tab_expenses">Expenses</string>
+    <string name="no_health_records">No health records yet.\nPress \'+\' to add the first one.</string>
+    <string name="medical_record">Medical Record</string>
+    <string name="no_medical_records">No medical records yet.</string>
+    <string name="weight_chart_title">Weight Chart</string>
+    <string name="mood_chart_title">Mood Chart</string>
+    <string name="chart_not_enough_data">At least 2 records are needed to build a graph.</string>
+    <string name="dialog_delete_record_title">Delete Record?</string>
+    <string name="dialog_delete_record_text">Are you sure you want to delete this record?</string>
+
+    <string name="add_record_title_new">New Medical Record</string>
+    <string name="add_record_title_edit">Edit Medical Record</string>
+    <string name="record_symptoms">Symptoms</string>
+    <string name="record_diagnosis">Diagnosis (optional)</string>
+    <string name="record_treatment">Treatment (optional)</string>
+    <string name="record_clinic">Clinic (optional)</string>
+    <string name="record_vet">Veterinarian (optional)</string>
+    <string name="record_notes">Notes (optional)</string>
+
+    <string name="map_screen_title">Vet Map</string>
+    <string name="map_add_note_dialog_title">Add Note</string>
+    <string name="map_note_title">Title (e.g., "Good Vet Clinic")</string>
+    <string name="map_note_description">Description (optional)</string>
+    <string name="map_location_permission_denied">Location permission denied. Please grant permission in settings to see your location on the map.</string>
+    <string name="map_location_loading">Determining your location…</string>
+    <string name="map_note_details_title">Note:</string>
+    <string name="map_delete_note_button">Delete Note</string>
+
+    <string name="documents_screen_title">Documents</string>
+    <string name="document_name">Document Name</string>
+    <string name="no_documents">No documents have been added yet.</string>
+    <string name="dialog_delete_document_title">Delete Document?</string>
+    <string name="dialog_delete_document_text">Are you sure you want to delete this document?</string>
+
+    <string name="title_article_detail">Article</string>
+    <string name="content_articles">Articles</string>
+    <string name="error_content_not_found_articles">Article content not found.</string>
+
+    <string name="animal_type_cats">Cats</string>
+    <string name="animal_type_dogs">Dogs</string>
+    <string name="animal_type_fish">Fish</string>
+    <string name="animal_type_birds">Birds</string>
+    <string name="animal_type_small_mammals">Small Mammals</string>
+    <string name="animal_type_reptiles_amphibians">Reptiles and Amphibians</string>
+
+    <string name="about_title">About App</string>
+    <string name="about_icon_description">App Icon</string>
+    <string name="about_version">Version 1.0.0</string>
+    <string name="about_description">Your personal assistant\nfor pet care</string>
+    <string name="about_privacy_policy">Privacy Policy</string>
+    <string name="todo_open_link">TODO: Open link</string>
+
+    <string name="expense_select_category">Select Category</string>
+    <string name="expense_total">Total Expense</string>
+    <string name="expense_amount">Amount</string>
+    <string name="expense_category">Category</string>
+    <string name="expense_new_category_title">New Category</string>
+    <string name="expense_category_name_label">Name</string>
+    <string name="expense_default_food">Food</string>
+    <string name="expense_default_toys">Toys</string>
+    <string name="expense_default_health">Health</string>
+    <string name="expense_default_care">Grooming</string>
+    <string name="expense_default_other">Other</string>
+    <string name="expense_add_new_category">+ New Category</string>
+    <string name="expense_enter_amount_title">Enter Amount</string>
+    <string name="expense_amount_label">Amount</string>
+    <string name="expense_add_title">Add Expense</string>
+    <string name="expense_edit_title">Edit Expense</string>
+    <string name="expense_label_expense">Expense</string>
+    <string name="expense_label_date">Date</string>
+    <string name="expense_date_not_selected">Not selected</string>
+    <string name="expense_description_optional">Description (optional)</string>
+    <string name="expense_hint_enter_category">Enter or select category</string>
+    <string name="validation_enter_valid_amount">Please enter a valid amount.</string>
+    <string name="validation_select_category">Please select or enter a category.</string>
+
+    <string name="task_add_title">New Task</string>
+    <string name="task_edit_title">Edit Task</string>
+    <string name="task_share">Share</string>
+    <string name="task_pet_selection_title">For which pet?</string>
+    <string name="task_category_selection_title">Select Category</string>
+    <string name="task_category_cancel">Cancel</string>
+    <string name="task_label_pet">Pet</string>
+    <string name="task_pet_select_pet">Select pet</string>
+    <string name="task_label_category">Category</string>
+    <string name="task_label_description">Task Description</string>
+    <string name="task_label_date">Date</string>
+    <string name="task_label_remind_me">Remind me</string>
+    <string name="task_label_time">Time</string>
+    <string name="task_default_time">09:00</string>
+
+    <string name="share_task_pet">Task for: %s</string>
+    <string name="share_task_title">Task: %s</string>
+    <string name="share_task_date">Date: %s</string>
+    <string name="share_task_chooser">Share Task</string>
+    <string name="notification_pet_name_default">Your pet</string>
+    <string name="notification_task_no_description">(No description)</string>
+
+    <string name="validation_select_task_date">Please specify the task date.</string>
+    <string name="validation_select_date_first">Please select the task date first.</string>
+
+    <string name="record_add_title">New Record</string>
+    <string name="record_edit_title">Edit Record</string>
+    <string name="record_label_date">Date</string>
+    <string name="record_label_symptoms_required">Symptoms / Reason (required)</string>
+    <string name="record_label_place_clinic">Place (clinic, home)</string>
+    <string name="record_label_specialist">Specialist (Doctor\'s name)</string>
+    <string name="record_label_diagnosis_treatment">Diagnosis / Prescription</string>
+    <string name="record_label_comment">Comment</string>
+    <string name="record_save_button">Save Record</string>
+    <string name="validation_enter_symptoms">Please indicate symptoms or reason.</string>
+
+    <string name="pet_edit_title">Edit</string>
+    <string name="pet_save_button">Save</string>
+    <string name="pet_photo_description">Pet photo</string>
+    <string name="pet_add_photo">Add photo</string>
+    <string name="pet_label_name">Pet Name</string>
+    <string name="pet_label_type">Animal Type</string>
+    <string name="pet_label_gender">Gender</string>
+    <string name="pet_label_breed">Breed</string>
+    <string name="pet_label_color">Color</string>
+    <string name="pet_label_birth_date">Date of Birth</string>
+    <string name="pet_label_family_date">In family since</string>
+    <string name="pet_label_castrated">Neutered / Spayed</string>
+    <string name="pet_label_microchip">Microchip</string>
+    <string name="pet_label_show_training">Show Training Log</string>
+    <string name="pet_label_note">Note</string>
+    <string name="pet_color_not_specified">Not specified</string>
+
+    <string name="dialog_select_type_title">Select Animal Type</string>
+    <string name="dialog_select_gender_title">Select Gender</string>
+    <string name="dialog_select_color_title">Select or Enter Color</string>
+    <string name="dialog_new_color_label">New Color</string>
+    <string name="dialog_image_source_title">Select Photo Source</string>
+    <string name="dialog_source_camera">Take photo with camera</string>
+    <string name="dialog_source_gallery">Select from gallery</string>
+    <string name="dialog_status_title">Indicate Status</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+
+    <string name="color_black">Black</string>
+    <string name="color_white">White</string>
+    <string name="color_gray">Gray</string>
+    <string name="color_ginger">Ginger</string>
+    <string name="color_spotted">Spotted</string>
+    <string name="color_tricolor">Tricolor</string>
+
+    <string name="validation_pet_name_empty">Pet name cannot be empty</string>
+    <string name="permission_gallery_denied">Gallery access permission denied</string>
+    <string name="permission_camera_denied">Camera usage permission denied</string>
+
+    <string name="training_add_title">New Training</string>
+    <string name="training_edit_title">Edit</string>
+    <string name="training_dialog_select_status">Select Status</string>
+    <string name="training_label_command">Command (e.g., \'Sit\')</string>
+    <string name="training_label_status">Status</string>
+    <string name="training_label_start_date">Start Date</string>
+    <string name="training_label_notes">Comments</string>
+    <string name="validation_enter_command_name">Please enter the command name.</string>
+
+    <string name="tasks_all_title">All Tasks</string>
+    <string name="tasks_empty_list">You don\'t have any tasks planned yet.</string>
+    <string name="tasks_general_task">General Task</string>
+    <string name="tasks_dialog_confirmation">Confirmation</string>
+    <string name="tasks_dialog_delete_text">Are you sure you want to delete the task \'%s\'?</string>
+    <string name="tasks_dialog_delete">Delete</string>
+    <string name="tasks_dialog_cancel">Cancel</string>
+    <string name="tasks_pet_label">Pet: %s</string>
+    <string name="tasks_no_description">(No description)</string>
+
+    <string name="auth_register_title">Registration</string>
+    <string name="auth_login_title">Sign In</string>
+    <string name="auth_email_label">Email</string>
+    <string name="auth_password_label">Password</string>
+    <string name="auth_hide_password">Hide password</string>
+    <string name="auth_show_password">Show password</string>
+    <string name="auth_register_button">Register</string>
+    <string name="auth_login_button">Sign In</string>
+    <string name="auth_switch_to_login">Already have an account? Sign In</string>
+    <string name="auth_switch_to_register">No account? Register</string>
+    <string name="auth_sign_in_google">Sign in with Google</string>
+    <string name="auth_snackbar_action_ok">OK</string>
+
+    <string name="error_google_sign_in_failed">Google Sign-In failed: code %1$d, message: %2$s, reason: %3$s</string>
+    <string name="error_google_sign_in_unknown">Unknown Google Sign-In error: %1$s</string>
+    <string name="error_google_sign_in_cancelled">Google Sign-In cancelled or failed. Result Code: %1$d</string>
+
+    <string name="calculator_title_main">Calculators</string>
+    <string name="calculator_title_food_adult">Portion: Adults</string>
+    <string name="calculator_title_food_puppy">Portion: Puppies/Kittens</string>
+    <string name="calculator_title_food_active">Portion: Active</string>
+    <string name="calculator_title_age_cat">Age: Cats</string>
+    <string name="calculator_title_age_dog_small">Age: Small Dogs</string>
+    <string name="calculator_title_age_dog_large">Age: Large Dogs</string>
+    <string name="calculator_title_water">Water Intake</string>
+    <string name="calculator_title_supply">Food Supply</string>
+    <string name="calculator_title_gestation">Gestation Calendar</string>
+
+    <string name="menu_food_adult_title">Food Portion: Adults, Neutered</string>
+    <string name="menu_food_adult_desc">Calculation for adult cats/dogs</string>
+    <string name="menu_food_puppy_title">Food Portion: Puppies/Kittens</string>
+    <string name="menu_food_puppy_desc">Calculation for growing pets</string>
+    <string name="menu_food_active_title">Food Portion: Active/Unneutered</string>
+    <string name="menu_food_active_desc">Calculation for highly active pets</string>
+
+    <string name="menu_age_cat_title">Age: Cats</string>
+    <string name="menu_age_cat_desc">Cat\'s age in \'human\' years (approx.)</string>
+    <string name="menu_age_dog_small_title">Age: Small Dogs</string>
+    <string name="menu_age_dog_small_desc">Age of small dog breeds in \'human\' years (approx.)</string>
+    <string name="menu_age_dog_large_title">Age: Large Dogs</string>
+    <string name="menu_age_dog_large_desc">Age of large dog breeds in \'human\' years (approx.)</string>
+
+    <string name="menu_water_title">Daily Water Intake</string>
+    <string name="menu_water_desc">Find out how much water your pet should drink</string>
+    <string name="menu_supply_title">How long will the food last?</string>
+    <string name="menu_supply_desc">Calculate when to buy a new package</string>
+    <string name="menu_gestation_title">Gestation Calendar</string>
+    <string name="menu_gestation_desc">Calculate the estimated birth date (cats/dogs)</string>
+
+    <string name="calc_label_weight">Pet weight (kg)</string>
+    <string name="calc_label_calories">Food calories (kcal per 100g)</string>
+    <string name="calc_label_pack_weight">Food package weight (kg)</string>
+    <string name="calc_label_daily_portion">Daily portion (g)</string>
+    <string name="calc_button_calculate">Calculate</string>
+    <string name="calc_result_daily_portion">Daily portion: %d g</string>
+    <string name="calc_result_error">Enter valid data</string>
+
+    <string name="calc_desc_adult_food">For adult, neutered cats and dogs. This is an approximate calculation, consult your veterinarian.</string>
+    <string name="calc_desc_puppy_food">For puppies and kittens. Calculation highly depends on age, breed, and growth rate. Always consult your veterinarian.</string>
+    <string name="calc_desc_active_food">For active, unneutered, or working animals. The calculation is approximate.</string>
+    <string name="calc_desc_age_cat">Calculation of \'human\' age for cats. This is a very approximate estimate.</string>
+    <string name="calc_desc_age_dog_small">Calculation of \'human\' age for small dog breeds (up to 10 kg). This is a very approximate estimate.</string>
+    <string name="calc_desc_age_dog_large">Calculation of \'human\' age for large dog breeds (25 kg and up). This is a very approximate estimate.</string>
+    <string name="calc_desc_water">Approximate daily water intake for most healthy cats and dogs. Not a substitute for veterinary consultation.</string>
+    <string name="calc_desc_gestation">The average gestation period for cats and dogs is 63 days. The date may vary slightly.</string>
+
+    <string name="calc_result_human_age">Your pet\'s age\nis approximately\n%d\nhuman years</string>
+    <string name="calc_result_water_intake">Daily intake: ~%d ml</string>
+    <string name="calc_result_food_supply">This package will last for approximately %d days</string>
+    <string name="calc_result_gestation_date">Estimated birth date:\n%s</string>
+    <string name="calc_dialog_select_pet">Select pet</string>
+    <string name="calc_label_pet_name">Pet</string>
+    <string name="calc_label_mating_date">Mating Date</string>
+
+    <string name="contacts_title">Contacts</string>
+    <string name="contacts_call">Call</string>
+    <string name="contacts_whatsapp">Message on WhatsApp</string>
+    <string name="contacts_delete">Delete</string>
+    <string name="contacts_empty_list">No contacts yet.\nPress \'+\' to add.</string>
+    <string name="contacts_header_unknown">Unknown Contact</string>
+
+    <string name="dialog_contact_new_title">New Contact</string>
+    <string name="dialog_contact_import_button">Import from phone</string>
+    <string name="dialog_contact_label_name_required">Name (required)</string>
+    <string name="dialog_contact_label_phone_required">Phone (required)</string>
+    <string name="dialog_contact_label_type_hint">Type (Vet, Groomer...)</string>
+    <string name="dialog_contact_label_notes_hint">Notes (address, hours)</string>
+    <string name="dialog_contact_save">Save</string>
+
+    <string name="dialog_delete_contact_title">Delete Contact?</string>
+    <string name="dialog_delete_contact_text">Are you sure you want to delete the contact \'%s\'? This action cannot be undone.</string>
+
+    <string name="toast_whatsapp_not_installed">WhatsApp is not installed or number is incorrect</string>
+    <string name="toast_contact_required_fields">Name, phone, and type are required</string>
+    <string name="toast_permission_contacts_denied">Permission to read contacts denied</string>
+    <string name="toast_contact_name_default">Unknown contact</string>
+    <string name="contacts_add">Add Contact</string>
+
+    <string name="documents_title">My Documents</string>
+    <string name="documents_add_fab">Upload Document</string>
+    <string name="documents_common_name">General Document</string>
+    <string name="documents_common_header">General Documents</string>
+    <string name="documents_date_added">%1$s • %2$s</string>
+    <string name="documents_empty_list">No documents yet.\nPress \'+\' to upload the first one.</string>
+    <string name="documents_delete_content_desc">Delete</string>
+
+    <string name="dialog_document_new_title">New Document</string>
+    <string name="dialog_document_label_name">Document Name</string>
+    <string name="dialog_document_label_pet_bind">Bind to</string>
+    <string name="dialog_document_button_select_file">Select File</string>
+    <string name="dialog_document_button_file_selected">File Selected</string>
+    <string name="dialog_document_save">Save</string>
+
+    <string name="dialog_document_confirmation">Confirmation</string>
+    <string name="dialog_document_delete_text">Are you sure you want to delete the document \'%s\'?</string>
+    <string name="dialog_document_delete_button">Delete</string>
+
+    <string name="toast_document_required_fields">Fill in the name and select a file</string>
+    <string name="toast_document_save_failed">Failed to save file</string>
+    <string name="toast_file_deleted">File deleted</string>
+    <string name="toast_file_delete_failed">Failed to delete file</string>
+    <string name="toast_file_open_failed">Failed to open file: %s</string>
+    <string name="toast_file_not_found">File not found at path: %s</string>
+
+    <string name="checklist_new_title_default">New Checklist</string>
+    <string name="checklist_edit_title">Editing</string>
+    <string name="checklist_delete_icon_desc">Delete checklist</string>
+    <string name="checklist_save_icon_desc">Save</string>
+    <string name="checklist_label_name">Checklist Name</string>
+    <string name="checklist_label_item_prefix">Item</string>
+    <string name="checklist_item_delete_desc">Delete item</string>
+    <string name="checklist_button_add_item">Add Item</string>
+
+    <string name="dialog_checklist_delete_title">Delete Checklist?</string>
+    <string name="dialog_checklist_delete_text">Are you sure you want to delete \'%s\'? This action is irreversible.</string>
+    <string name="dialog_checklist_delete_button">Delete</string>
+
+    <string name="toast_checklist_name_empty">The name cannot be empty</string>
+
+    <string name="pet_list_title">My Pets</string>
+    <string name="pet_list_menu_icon_desc">Menu</string>
+    <string name="pet_list_notifications_icon_desc">Reminders</string>
+    <string name="pet_list_empty_message">You don\'t have any pets yet.\nPress \'+\' below to add the first one!</string>
+    <string name="reminder_dialog_title">Upcoming Reminders</string>
+    <string name="reminder_dialog_empty">You have no upcoming reminders.</string>
+    <string name="reminder_dialog_general_task">General</string>
+    <string name="reminder_dialog_button_ok">OK</string>
+    <string name="dialog_confirmation_title">Confirmation</string>
+    <string name="dialog_delete_pet_button">Delete</string>
+
+    <string name="pet_card_photo_desc">Pet photo</string>
+    <string name="reminder_item_pet_category_format">%1$s • %2$s</string>
+
+    <string name="html_title_terms">Terms of Use</string>
+    <string name="html_title_privacy">Privacy Policy</string>
+    <string name="html_title_description">App Description</string>
+
+    <string name="nav_pets">Pets</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_add">Add</string>
+    <string name="nav_finance">Finance</string>
+    <string name="nav_map">Map</string>
+    <string name="nav_reminders">Reminders</string>
+    <string name="nav_pet_limit_message">You don\'t have any pets yet.\nPress \'+\' below to add the first one!</string>
+
+    <string name="drawer_status_premium">Status: Premium</string>
+    <string name="drawer_status_free">Status: Free</string>
+    <string name="drawer_manage_subscription">Manage Subscription</string>
+    <string name="drawer_calculators">Calculators</string>
+    <string name="drawer_useful">Useful</string>
+    <string name="drawer_checklists">Checklists</string>
+    <string name="drawer_documents">My Documents</string>
+    <string name="drawer_contacts">Contacts</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_section_documents">Documents</string>
+    <string name="drawer_terms_of_use">Terms of Use</string>
+    <string name="drawer_privacy_policy">Privacy Policy</string>
+    <string name="drawer_about_app">About App</string>
+    <string name="drawer_logout">Log Out</string>
+    <string name="drawer_logout_desc">Log Out</string>
+    <string name="drawer_app_logo_desc">App Logo</string>
+
+    <string name="welcome_message">Welcome to PetMemo!</string>
+
+    <string name="map_title">Map</string>
+    <string name="map_permission_granted">Location permissions granted.</string>
+    <string name="map_permission_denied">Location permissions DENIED.</string>
+    <string name="map_permission_needed_snackbar">Location permissions are required to display your location.</string>
+    <string name="map_permission_already_granted">FINE_LOCATION permission already granted.</string>
+    <string name="map_permission_requesting">FINE_LOCATION permission missing, requesting.</string>
+    <string name="map_location_updates_started">Location update request started.</string>
+    <string name="map_location_updates_stopped">Location updates stopped.</string>
+    <string name="map_location_update_security_error">Security error when requesting location: %s</string>
+    <string name="map_location_getting">Determining your location...</string>
+
+    <string name="marker_title_you_are_here">You are here</string>
+    <string name="marker_snippet_current_location">Your current location</string>
+
+    <string name="note_details_title_default">Note Title</string>
+    <string name="note_button_delete">Delete</string>
+    <string name="note_button_close">Close</string>
+    <string name="note_deleted_snackbar">Note \'%s\' deleted.</string>
+
+    <string name="dialog_note_add_title">Add Note</string>
+    <string name="dialog_note_label_title">Title</string>
+    <string name="dialog_note_label_description">Description (optional)</string>
+    <string name="dialog_note_add_button">Add</string>
+    <string name="dialog_note_added_snackbar">Note added!</string>
+    <string name="dialog_note_title_empty_snackbar">Title cannot be empty.</string>
+
+    <string name="record_detail_loading">Loading...</string>
+    <string name="record_detail_symptoms">Symptoms: %s</string>
+    <string name="record_detail_date">Date: %s</string>
+    <string name="record_detail_place">Place: %s</string>
+    <string name="record_detail_specialist">Specialist: %s</string>
+    <string name="record_detail_diagnosis">Diagnosis/Prescription: %s</string>
+    <string name="record_detail_treatment">Treatment: %s</string>
+    <string name="record_detail_note">Note: %s</string>
+    <string name="record_detail_section_notes">Observations / Comments</string>
+    <string name="record_detail_add_note_label">Add new observation...</string>
+    <string name="record_detail_add_note_button">Add Observation</string>
+
+    <string name="note_edit_desc">Edit</string>
+    <string name="note_delete_desc">Delete</string>
+    <string name="dialog_note_edit_title">Edit Observation</string>
+    <string name="dialog_note_delete_title">Delete Comment?</string>
+    <string name="dialog_note_delete_text">Are you sure you want to delete this comment?</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_label_theme">Theme</string>
+    <string name="settings_label_currency">Currency</string>
+
+    <string name="dialog_select_currency">Select Currency</string>
+    <string name="dialog_select_theme">Select Theme</string>
+
+    <string name="theme_default">Default</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="info_section_main">Main Information</string>
+    <string name="info_label_type">Type</string>
+    <string name="info_label_gender">Gender</string>
+    <string name="info_label_breed">Breed</string>
+    <string name="info_label_color">Color</string>
+    <string name="info_label_not_specified">Not specified</string>
+    <string name="info_label_not_specified_f">Not specified</string>
+    <string name="info_section_dates">Dates</string>
+    <string name="info_label_birth_date">Date of Birth</string>
+    <string name="info_label_family_date">In family since</string>
+    <string name="info_section_medical">Medical</string>
+    <string name="info_label_castrated">Neutered / Spayed</string>
+    <string name="info_label_microchip">Microchip</string>
+    <string name="info_label_yes">Yes</string>
+    <string name="info_label_no">No</string>
+    <string name="info_section_note">Note</string>
+    <string name="info_label_not_available">N/A</string>
+
+    <string name="training_diary_empty">No training logs yet.\nPress \'+\' to add the first one.</string>
+    <string name="training_create_task_desc">Create Task</string>
+    <string name="training_task_title_format">Training: %s</string>
+
+    <string name="health_tracker_mood">Mood Tracker</string>
+    <string name="health_tracker_mood_today">How is your pet\'s mood today?</string>
+    <string name="health_tracker_weight">Weight Dynamics</string>
+    <string name="health_tracker_weight_label">Weight, kg</string>
+    <string name="health_tracker_weight_button">Add</string>
+    <string name="health_record_section">Medical Records</string>
+    <string name="health_record_empty">No records in the medical chart yet.</string>
+    <string name="health_chart_min_entries">At least 2 entries are required to build a chart</string>
+    <string name="health_dialog_edit_weight_title">Edit Weight</string>
+    <string name="health_dialog_edit_mood_title">Change Mood</string>
+    <string name="health_dialog_edit_mood_question">What was your pet\'s mood on %s?</string>
+    <string name="health_dialog_delete_title">Delete Entry?</string>
+    <string name="health_dialog_delete_confirm_text">Are you sure?</string>
+    <string name="health_dialog_delete_button">Delete</string>
+    <string name="health_add_record_fab">Add Record</string>
+    <string name="health_add_training_fab">Add Training</string>
+    <string name="health_mood_collapse_desc">Collapse/expand</string>
+    <string name="health_record_task_title_format">Med. task: %s</string>
+
+    <string name="record_card_diagnosis_format">Diagnosis: %s</string>
+    <string name="record_card_share_desc">Share</string>
+    <string name="share_medical_record_title">Medical record about the pet:</string>
+    <string name="share_medical_record_date">Date: %s</string>
+    <string name="share_medical_record_symptoms">Symptoms: %s</string>
+    <string name="share_medical_record_diagnosis">Diagnosis: %s</string>
+    <string name="share_medical_record_treatment">Treatment: %s</string>
+    <string name="share_medical_record_vet">Veterinarian: %s</string>
+    <string name="share_medical_record_clinic">Clinic: %s</string>
+    <string name="share_medical_record_notes">Notes: %s</string>
+    <string name="share_chooser_record">Share medical record</string>
+
+    <string name="tab_info">Information</string>
+    <string name="tab_health">Health</string>
+    <string name="tab_training">Training</string>
+    <string name="pet_detail_loading">Loading...</string>
+    <string name="pet_detail_edit_icon_desc">Edit</string>
+    <string name="pet_detail_add_record_desc">Add Record</string>
+    <string name="pet_detail_add_training_desc">Add Training</string>
+
+    <string name="item_edit_desc">Edit</string>
+    <string name="item_delete_desc">Delete</string>
+    <string name="item_weight_desc">Weight</string>
+
+    <string name="dialog_delete_training_text">Are you sure you want to delete this training entry?</string>
+    <string name="dialog_delete_button">Delete</string>
+    <string name="task_empty_list">No tasks yet.\nPress \'+\' to add.</string>
+
+    <string name="checklists_title">Checklists</string>
+    <string name="checklists_my_lists">My Checklists</string>
+    <string name="checklists_copy_desc">Copy to \'My Checklists\'</string>
+    <string name="checklists_template_copied_toast">\'%s\' copied!</string>
+    <string name="checklists_expand_desc">Collapse/expand</string>
+    <string name="checklists_add_new">Create new checklist</string>
+    <string name="checklists_loading">Loading...</string>
+    <string name="checklists_edit">Edit</string>
+    <string name="checklists_empty_message">No checklists yet.\nPress \'+\' to add.</string>
+
+
+    <string name="delete_button">Delete</string>
+    <string name="save_button">Save</string>
+    <string name="edit_button">Edit</string>
+
+    <!-- Общие отчеты -->
+    <string name="data_not_available">No data available</string>
+    <string name="expense_reports_title">Financial Reports</string>
+    <string name="expense_structure">Expense Structure</string>
+    <string name="expense_icon_desc">Expense icon</string>
+    <string name="expense_general">General</string>
+    <string name="expense_all">All Expenses</string>
+    <string name="expense_unknown_pet">Unknown Pet</string>
+    <string name="expense_delete_confirm">Deletion Confirmation</string>
+    <string name="expense_delete_text">Are you sure you want to delete this expense?</string>
+    <string name="date_range_start">Start Date</string>
+    <string name="date_range_end">End Date</string>
+
+    <!-- Фильтры дат -->
+    <string name="date_filter_today">Today</string>
+    <string name="date_filter_this_month">This Month</string>
+    <string name="date_filter_last_month">Last Month</string>
+    <string name="date_filter_this_year">This Year</string>
+    <string name="date_filter_all_time">All Time</string>
+    <string name="date_filter_custom">Custom</string>
+    <string name="expense_filter_all_cats">All Categories</string>
+    <string name="expense_filter_date_range">Select Date Range</string>
+
+    <string name="cancel_button">Cancel</string>
+
+    <string name="subscription_title">PetMemo Premium Subscription</string>
+    <string name="subscription_activated">Subscription activated!</string>
+    <string name="subscription_already_premium">You already have PetMemo Premium!</string>
+    <string name="subscription_get_premium">Get the most out of PetMemo with Premium!</string>
+    <string name="subscription_benefits_header">Enjoy all features:</string>
+    <string name="subscription_restore_purchases">Restore Purchases</string>
+    <string name="subscription_reset_fake">Reset Subscription (Fake)</string>
+    <string name="subscription_terms">Your subscription will auto-renew unless cancelled at least 24 hours before the end of the current period. Manage subscriptions in your Google/RuStore account settings.</string>
+    <string name="error_loading_products">Error loading products. Please try again later.</string>
+
+    <string name="benefit_unlimited_pets">Unlimited number of pets</string>
+    <string name="benefit_map_access">Access to interactive map</string>
+    <string name="benefit_no_ads">Completely ad-free experience</string>
+    <string name="benefit_priority_support">Priority support</string>
+
+    <string name="option_monthly_title">Monthly Subscription</string>
+    <string name="option_monthly_price">$3 / month</string>
+    <string name="option_monthly_desc">The perfect way to try it out</string>
+    <string name="option_annual_title">Annual Subscription</string>
+    <string name="option_annual_price">$30 / year</string>
+    <string name="option_annual_desc">Save $6 per year!</string>
+    <string name="pet_diary_title">Your Pet\'s Diary</string>
+
+    <string name="mood_happy">Happy</string>
+    <string name="mood_playful">Playful</string>
+    <string name="mood_calm">Calm</string>
+    <string name="mood_anxious">Anxious</string>
+    <string name="mood_sad">Sad</string>
+    <string name="health_label_weight_kg">Weight, kg</string>
+
+    <string name="pet_type_dog">Dog</string>
+    <string name="pet_type_cat">Cat</string>
+    <string name="pet_type_bird">Bird</string>
+    <string name="pet_type_fish">Fish</string>
+    <string name="pet_type_rodent">Rodent</string>
+    <string name="pet_type_reptile">Reptile</string>
+    <string name="pet_type_other">Other</string>
+    <string name="pet_type_unknown">Unknown</string>
+
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="gender_unknown">Unknown</string>
+
+    <string name="task_category_vet_visit">Vet Visit</string>
+    <string name="task_category_vaccination">Vaccination</string>
+    <string name="task_category_grooming">Grooming</string>
+    <string name="task_category_medication">Medication</string>
+    <string name="task_category_training">Training</string>
+    <string name="task_category_shopping">Shopping</string>
+    <string name="task_category_custom">Other</string>
+    <string name="subscription_enter_promo_code">Enter promo code</string>
+
+    <string name="expense_category_input_hint">Some other text</string>
+
+    <string name="reset_password_title">Reset password</string>
+    <string name="email_label">E-mail</string>
+    <string name="reset_password_button">Reset password</string>
+    <string name="password_reset_email_sent">Password reset instructions have been sent to your email.</string>
+    <string name="password_reset_error">Password reset error: %s</string>
+    <string name="email_empty_warning">Please enter your email address.</string>
+    <string name="forgot_password_button">Forgot your password?</string>
+</resources>
